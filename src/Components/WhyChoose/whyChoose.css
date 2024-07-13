@@ -1,0 +1,20 @@
+.why_choose_us .why_choose {
+  display: flex;
+  align-items: self-start;
+}
+
+.why_choose_us .why_choose .why_choose_icon {
+  margin-right: 30px;
+  width: 100px;
+}
+
+.why_choose_us .why_choose .why_choose_title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.why_choose_us .why_choose .contant {
+  font-size: 15px;
+  margin: 15px 0;
+}

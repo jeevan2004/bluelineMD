@@ -1,0 +1,112 @@
+.contact-area .col-lg-6 {
+  padding: 50px 37px;
+  box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+  background: #fff;
+  border-radius: 8px;
+  flex: 0 0 48%;
+  max-width: 48%;
+}
+.contact-area .col-lg-6 {
+  padding: 50px 37px;
+  box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+  background: #fff;
+  border-radius: 8px;
+  flex: 0 0 48%;
+  max-width: 48%;
+}
+.contact-area .contact-tabs > ul {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: -15px;
+}
+.contact-area .row {
+  align-items: flex-start;
+}
+
+.contact-area .row {
+  justify-content: space-between;
+}
+.contact-tabs .tab-content ul li i {
+  width: 80px;
+  height: 80px;
+}
+.contact-tabs .tab-content ul li i {
+  box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+}
+.contact-tabs .tab-content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.contact-tabs .tab-content ul li i {
+  color: #2d76b8;
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  background: #fff;
+  border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+  margin-right: 20px;
+}
+.contact-tabs .tab-content ul li .info {
+  padding: 0;
+}
+.contact-tabs .tab-content ul li .info p {
+  font-weight: 600;
+  color: #0e2b3d;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.contact-tabs .tab-content ul li .info span {
+  display: block;
+  font-weight: 400;
+  text-transform: none;
+  color: #666;
+}
+.contact-area .info iframe {
+  width: 100%;
+  min-height: 400px;
+}
+.contact-area .nav-tabs .nav-link:hover {
+  color: #2d76b8;
+}
+.contact-area .nav-tabs .nav-link.active {
+  background-color: unset !important;
+  border-bottom: 2px solid #2d76b8 !important;
+}
+.contact-tabs ul li button {
+  color: #e2690e;
+  padding: 5px 0;
+  margin-right: 20px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 600;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+.contact-form-box .form-control,
+.contact-form-box .form-select {
+  border: none;
+  box-shadow: inherit;
+  padding: 10px;
+  background: #fafafa;
+}
+.contact-form-box label {
+  color: #666;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.form-check-input:checked {
+  background-color: #e2690e;
+  border-color: #e2690e;
+}
+.contact-form-box button.btn-primary {
+  background: #e2690e !important;
+  width: 100% !important;
+  border-color: #e2690e;
+  margin-top: 20px;
+  padding: 10px 20px;
+}

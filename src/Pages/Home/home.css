@@ -1,0 +1,12 @@
+.latest_update .content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.latest_update .content h4 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}

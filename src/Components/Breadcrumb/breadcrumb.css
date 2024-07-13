@@ -1,0 +1,74 @@
+.breadcrumb-area {
+  padding: 150px 0;
+}
+.bg-fixed {
+  background-attachment: fixed !important;
+}
+.shadow.dark:after {
+  background: #000;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+}
+.breadcrumb-area h2 {
+  word-break: break-word;
+}
+.breadcrumb-area .breadcrumb:after {
+  background: #232323;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.breadcrumb-area .breadcrumb li.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.breadcrumb-area .breadcrumb a,
+.breadcrumb-area .breadcrumb li {
+  font-family: "Proxima";
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+.breadcrumb-area .breadcrumb li {
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+ul.breadcrumb {
+  position: relative;
+  float: right;
+  padding: 11px 1px;
+}
+.breadcrumb-area h2 {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+.breadcrumb-area {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 9;
+  background-position: center;
+}
+.fixed-bg,
+.shadow.dark-hard:after,
+.shadow.dark:after {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
