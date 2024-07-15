@@ -77,6 +77,10 @@ p {
 .text-light {
   color: #f8f9fa !important;
 }
+
+.bg_dark {
+  background: #f8fafd;
+}
 .default_padding {
   padding-top: 80px;
   padding-bottom: 80px;

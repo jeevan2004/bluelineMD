@@ -19,7 +19,7 @@ function Header() {
         {
           title: "Care Delivery",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "#",
+          path: "/care-delivery",
           icon: <i class="fas fa-truck"></i>,
           subMenu: false,
         },

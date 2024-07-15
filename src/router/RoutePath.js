@@ -4,6 +4,7 @@ import ContactUs from "../Pages/ContactUs/ContactUs";
 import Home from "../Pages/Home/Home";
 import Product from "../Pages/Product/Product";
 import Services from "../Pages/Services/Services";
+import Solution from "../Pages/Solution/Solution";
 
 export const routes = [
   {
@@ -52,6 +53,14 @@ export const routes = [
     element: Product,
     role: "private",
     name: "Product",
+    subRouting: false,
+  },
+  {
+    notLazy: true,
+    path: "/care-delivery",
+    element: Solution,
+    role: "private",
+    name: "Solution",
     subRouting: false,
   },
 ];
