@@ -74,7 +74,7 @@ function Header() {
         {
           title: "Clinical",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "#",
+          path: "clinical",
           icon: <i class="fas fa-clinic-medical"></i>,
           subMenu: false,
         },
@@ -171,7 +171,7 @@ function Header() {
                                         ? "active"
                                         : ""
                                     } navbar_link `}
-                                    to="/"
+                                    to={subFirst.path}
                                     id={subFirst.title}
                                     role="button"
                                   >
