@@ -74,28 +74,28 @@ function Header() {
         {
           title: "Clinical",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "clinical",
+          path: "product/clinical",
           icon: <i class="fas fa-clinic-medical"></i>,
           subMenu: false,
         },
         {
           title: "Billing",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "billing",
+          path: "product/billing",
           icon: <i class="fas fa-file-invoice"></i>,
           subMenu: false,
         },
         {
           title: "Telehealth",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "telehealth",
+          path: "product/telehealth",
           icon: <i class="fas fa-percentage"></i>,
           subMenu: false,
         },
         {
           title: "Managed Billing",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "managedBilling",
+          path: "product/managedBilling",
           icon: <i class="fas fa-file-invoice"></i>,
 
           subMenu: false,
