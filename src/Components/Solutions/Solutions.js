@@ -14,6 +14,9 @@ import WhyChoose from "../WhyChoose/WhyChoose";
 import Tele from "../../assets/image/telehealth.png";
 import Analytics from "../../assets/image/analytics.png";
 
+import { useParams } from "react-router-dom";
+import { solutionsData } from "../../utils/SolutionsConstant";
+
 const needData = [
   {
     title: "Designed by Healthcare Providers",
@@ -38,34 +41,31 @@ const needData = [
   },
 ];
 const Solutions = () => {
+  let { name } = useParams();
+
+  const data = solutionsData[name];
+  console.log(data, " vvvvvvv ");
+  const faqData = {
+    heading: data?.faq.heading,
+    subHeading: data?.faq.subHeading,
+    faqItems: data?.faq.faqItems,
+  };
+  const getInWayData = {
+    heading: data?.getInWay.heading,
+    subHeading: data?.getInWay.subHeading,
+    getInItems: data?.getInWay.items,
+  };
   return (
     <>
-      <HomeBanner />
-      {/* <section class="banner_menu scrollUp">
-        <div class="banner_menu_cont">
-          <ul class="menu_items">
-            <li>
-              <a href="#facts" class="active">
-                OVERVIEW
-              </a>
-            </li>
-            <li>
-              <a href="#features" class="">
-                FEATURES
-              </a>
-            </li>
-            <li>
-              <a href="#start">PLANS</a>
-            </li>
-            <li>
-              <a href="#specialties">CUSTOMER SUCCESS</a>
-            </li>
-            <li>
-              <a href="#faq">FAQS</a>
-            </li>
-          </ul>
-        </div>
-      </section> */}
+      <HomeBanner
+        title={data?.heroBanner.title}
+        heading={data?.heroBanner.heading}
+        strong={data?.heroBanner.strong}
+        content={data?.heroBanner.content}
+        btnText={data?.heroBanner.btnText}
+        btnLink={data?.heroBanner.btnLink}
+        img={data?.heroBanner.img}
+      />
 
       <section className="latest_update default_padding bg_dark">
         <div className="container">
@@ -153,11 +153,11 @@ const Solutions = () => {
         subHeadig=""
         data={needData}
       />
-      <Faq />
+      <Faq data={faqData} />
       <Recommended />
 
       <Help />
-      <WhyChoose bg="#f8fafd" />
+      <WhyChoose data={getInWayData} bg="#f8fafd" />
     </>
   );
 };

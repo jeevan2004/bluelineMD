@@ -1,3 +1,4 @@
+import ErrorPage from "../Components/404/ErrorPage";
 import Blog from "../Pages/Blog/Blog";
 import Single from "../Pages/Blog/Single";
 import ContactUs from "../Pages/ContactUs/ContactUs";
@@ -57,8 +58,16 @@ export const routes = [
   },
   {
     notLazy: true,
-    path: "/care-delivery",
+    path: "/solutions/:name",
     element: Solution,
+    role: "private",
+    name: "Solution",
+    subRouting: false,
+  },
+  {
+    notLazy: true,
+    path: "/404",
+    element: ErrorPage,
     role: "private",
     name: "Solution",
     subRouting: false,

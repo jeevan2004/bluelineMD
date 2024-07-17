@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HomeBanner from "../homeBanner/HomeBanner";
 import YourNeeds from "../YourNeeds/YourNeeds";
 import "./products.css";
@@ -12,7 +12,8 @@ import Recommended from "../Recommended/Recommended";
 import WhyChoose from "../WhyChoose/WhyChoose";
 import hero from "../../assets/image/hero.png";
 import { productData } from "../../utils/ProductConstant";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import ErrorPage from "../404/ErrorPage";
 
 const needData = [
   {
@@ -41,6 +42,8 @@ const needData = [
 const Products = () => {
   let { name } = useParams();
 
+  const navigate = useNavigate();
+
   const data = productData[name];
 
   const faqData = {
@@ -53,30 +56,39 @@ const Products = () => {
     subHeading: data?.getInWay.subHeading,
     getInItems: data?.getInWay.items,
   };
-  console.log(faqData, "ssssss");
+  console.log(data, "ssssss");
+
   return (
     <>
-      <HomeBanner
-        title={data?.heroBanner.title}
-        heading={data?.heroBanner.heading}
-        strong={data?.heroBanner.strong}
-        content={data?.heroBanner.content}
-        btnText={data?.heroBanner.btnText}
-        btnLink={data?.heroBanner.btnLink}
-        img={data?.heroBanner.img}
-      />
+      {data ? (
+        <>
+          <HomeBanner
+            title={data?.heroBanner.title}
+            heading={data?.heroBanner.heading}
+            strong={data?.heroBanner.strong}
+            content={data?.heroBanner.content}
+            btnText={data?.heroBanner.btnText}
+            btnLink={data?.heroBanner.btnLink}
+            img={data?.heroBanner.img}
+          />
 
-      <YourNeeds
-        isBtn={false}
-        heading="Electronic Health Records (EHR) Software Built with the Provider in Mind"
-        subHeadig=""
-        data={needData}
-      />
-      <Faq data={faqData} />
-      <Recommended />
+          <YourNeeds
+            isBtn={false}
+            heading="Electronic Health Records (EHR) Software Built with the Provider in Mind"
+            subHeadig=""
+            data={needData}
+          />
+          <Faq data={faqData} />
+          <Recommended />
 
-      <Help />
-      <WhyChoose data={getInWayData} bg="#f8fafd" />
+          <Help />
+          <WhyChoose data={getInWayData} bg="#f8fafd" />
+        </>
+      ) : (
+        <>
+          <ErrorPage />
+        </>
+      )}
     </>
   );
 };

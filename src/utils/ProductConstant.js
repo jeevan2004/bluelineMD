@@ -1,5 +1,8 @@
 // Import the image
 import hero from "../assets/image/hero.png";
+import clinical_img from "../assets/image/Clinical.png";
+import belling_img from "../assets/image/belling.png";
+
 import clinical_icon from "../assets/image/icon/clinical_icon.png";
 import clinical_start from "../assets/image/icon/clinical_start.png";
 import clinical_all from "../assets/image/icon/clinical_all.png";
@@ -17,7 +20,7 @@ export const productData = {
       ],
       btnText: "Schedule Your Free Demo",
       btnLink: "#",
-      img: hero,
+      img: clinical_img,
     },
     yourNeed: {
       heading:
@@ -121,16 +124,15 @@ export const productData = {
   },
   billing: {
     heroBanner: {
-      title: "billing focus on what matters most",
+      title: "Streamline Your In-House Billing with BluelineMD",
       heading: "",
       strong: "",
       content: [
-        "Don't get bogged down by paperwork. BluelineMD's user-friendly EHR simplifies your practice management, frees up your time, and lets you focus on what truly matters - building strong relationships with your patients and delivering exceptional care.",
-        "In the dynamic world of behavioral health, streamlining operations, enhancing patient outcomes, and achieving financial success are paramount to thriving practices. BluelineMD, a cutting-edge EHR solution, empowers behavioral health professionals to seamlessly navigate these goals, transforming their practices into hubs of excellence.",
+        "BluelineMD Billing offers unparalleled support for your practice's financial operations. Our advanced practice management software simplifies the complexities of insurance billing and patient management. With both web and mobile applications, BluelineMD empowers your team to:",
       ],
       btnText: "Schedule Your Free Demo",
       btnLink: "#",
-      img: hero,
+      img: belling_img,
     },
     yourNeed: {
       heading:
@@ -234,12 +236,11 @@ export const productData = {
   },
   telehealth: {
     heroBanner: {
-      title: "telehealth focus on what matters most",
+      title: "Modern Patient Care, Anytime, Anywhere",
       heading: "",
       strong: "",
       content: [
-        "Don't get bogged down by paperwork. BluelineMD's user-friendly EHR simplifies your practice management, frees up your time, and lets you focus on what truly matters - building strong relationships with your patients and delivering exceptional care.",
-        "In the dynamic world of behavioral health, streamlining operations, enhancing patient outcomes, and achieving financial success are paramount to thriving practices. BluelineMD, a cutting-edge EHR solution, empowers behavioral health professionals to seamlessly navigate these goals, transforming their practices into hubs of excellence.",
+        "BluelineMD Telehealth brings healthcare into the digital age. Our secure and user-friendly platform offers a seamless way to provide cutting-edge care remotely. With just a click, you can deliver convenient, compliant, and high-quality patient care from any location. Experience the future of healthcare delivery with BluelineMD's innovative telehealth solution.",
       ],
       btnText: "Schedule Your Free Demo",
       btnLink: "#",
@@ -347,12 +348,12 @@ export const productData = {
   },
   managedBilling: {
     heroBanner: {
-      title: "managed Billing focus on what matters most",
+      title: "Expert Medical Billing Tailored to Your Practice",
       heading: "",
       strong: "",
       content: [
-        "Don't get bogged down by paperwork. BluelineMD's user-friendly EHR simplifies your practice management, frees up your time, and lets you focus on what truly matters - building strong relationships with your patients and delivering exceptional care.",
-        "In the dynamic world of behavioral health, streamlining operations, enhancing patient outcomes, and achieving financial success are paramount to thriving practices. BluelineMD, a cutting-edge EHR solution, empowers behavioral health professionals to seamlessly navigate these goals, transforming their practices into hubs of excellence.",
+        "At BluelineMD, we understand that medical billing isn't a one-size-fits-all solution. Every practice has unique needs, and finding the right billing partner can be challenging. That's where we excel.",
+        "BluelineMD connects you with seasoned, independent billing experts who:",
       ],
       btnText: "Schedule Your Free Demo",
       btnLink: "#",
