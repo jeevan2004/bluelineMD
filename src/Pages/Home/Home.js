@@ -20,46 +20,46 @@ import phrPortal from "../../assets/image/icon/phrPortal.png";
 import ehrBilling from "../../assets/image/icon/ehrBilling.png";
 import iconEhrDevices from "../../assets/image/icon/iconEhrDevices.png";
 import Help from "../../Components/Help/Help";
-
+import hero from "../../assets/image/hero.png";
 const needData = [
   {
-    title: "Telehealth",
-    description: `Enjoy customizable clinical notes and time saving shortcuts built for your specialty.`,
+    title: "Telemedicine Experience ",
+    description: `Telemedicine Experience is our user-friendly virtual consultation platform designed for your specific field. `,
     img: telehealth,
     btn_link: "#",
     btnName: "Read More",
   },
   {
-    title: "EMR",
-    description: `Enjoy customizable clinical notes and time saving shortcuts built for your specialty.`,
+    title: "Electronic Health",
+    description: `Electronic Health Records Benefit from our customizable EHR system with efficiency-boosting features for your specialty. `,
     img: icon_chart,
     btn_link: "#",
     btnName: "Read More",
   },
   {
-    title: "Revenue Cycle Management",
-    description: `Enjoy customizable clinical notes and time saving shortcuts built for your specialty.`,
+    title: "Financial Management",
+    description: `Financial Management Maximise your revenue with our advanced billing and reimbursement optimization tools. `,
     img: rcmChar,
     btn_link: "#",
     btnName: "Read More",
   },
   {
-    title: "Practice Management",
-    description: `Enjoy customizable clinical notes and time saving shortcuts built for your specialty.`,
+    title: "Clinic Operations",
+    description: `Clinic Operations Streamline your practice with our intuitive management software, tailored to your needs. `,
     img: phrPortal,
     btn_link: "#",
     btnName: "Read More",
   },
   {
-    title: "Medical Billing Software",
-    description: `Enjoy customizable clinical notes and time saving shortcuts built for your specialty.`,
+    title: "Billing Automation",
+    description: `Billing Automation Simplify your financial processes with our state-of-the-art medical billing software. `,
     img: ehrBilling,
     btn_link: "#",
     btnName: "Read More",
   },
   {
-    title: "Mobile EHR",
-    description: `Enjoy customizable clinical notes and time saving shortcuts built for your specialty.`,
+    title: "On-the-Go Access",
+    description: `On-the-Go Access - Stay connected with our mobile EHR app, offering full functionality wherever you are. `,
     img: iconEhrDevices,
     btn_link: "#",
     btnName: "Read More",
@@ -69,33 +69,62 @@ const needData = [
 const Home = () => {
   return (
     <>
-      <HomeBanner />
-      <FeaturesSec />
+      <HomeBanner
+        title={`We focus on what matters most`}
+        heading={``}
+        strong={""}
+        content={[
+          `Don't get bogged down by paperwork. BluelineMD's user-friendly EHR simplifies your practice management, frees up your time, and lets you focus on what truly matters - building strong relationships with your patients and delivering exceptional care.`,
+          `In the dynamic world of behavioral health,
+        streamlining operations, enhancing patient outcomes, and achieving financial success are paramount to thriving practices. BluelineMD, a cutting-edge EHR solution, empowers behavioral health professionals to seamlessly navigate these goals, transforming their practices into hubs of excellence.`,
+        ]}
+        btnText={`Schedule Your Free Demo`}
+        btnLink={`#`}
+        img={hero}
+      />
+      <FeaturesSec
+        heading={`Focus on Your Patients, Not Your Software. We Makes Practice Management Effortless.
+`}
+        content={`Tired of software that slows you down? BluelineMD is different. Our complete technology platform is designed specifically for behavioral health practices, with an intuitive interface that empowers you to effortlessly manage all aspects of your practice – from scheduling appointments and streamlining billing to tracking patient progress and fostering communication.
+`}
+        tiles={[
+          {
+            title: `Free up valuable time`,
+            description: `Spend less time wrestling with software and more time building rapport with your patients.`,
+          },
+          {
+            title: `Simplify workflows`,
+            description: `Our intuitive design makes managing your practice a breeze.`,
+          },
+          {
+            title: `Focus on what matters most`,
+            description: `Deliver exceptional care with the tools and insights BluelineMD provides.`,
+          },
+        ]}
+      />
 
       <section className="latest_update default_padding">
         <div className="container">
           <div className="section_heading">
-            <h2>Latest Updates to the Kareo platform</h2>
+            <h2>Always Evolving to Meet Your Needs</h2>
             <h4>
-              We are committed to solving some of the toughest challenges that
-              independent practices face, below are a few of our latest
-              enhancements to aid in improving care delivery, patient
-              engagement, revenue cycle management and regulatory compliance.
-              For a detailed list of recent enhancements view our product
-              updates page.
+              At BluelineMD, we understand the ever-changing landscape of
+              behavioural healthcare. That's why we're constantly innovating and
+              improving our platform to ensure you have the tools you need to
+              deliver exceptional care.
             </h4>
           </div>
 
           <div className="row mb-4">
             <div className="col-md-6">
               <div className="content">
-                <h4>KAREO TELEHEALTH</h4>
+                <h4>Convenient Care, Anywhere, Anytime</h4>
                 <p className="mb-3">
-                  With Kareo Telehealth, you can connect with patients anywhere
-                  at anytime. It's simple, secure and streamlined—and fully
-                  reimbursed by private payers.
+                  Our secure and HIPAA-compliant platform allows you to deliver
+                  high-quality behavioural healthcare through convenient video
+                  conferencing, regardless of location.
                 </p>
-                <button className="btn_primary">View Product</button>
+                <button className="btn_primary">Contact us</button>
               </div>
             </div>
 
@@ -114,13 +143,14 @@ const Home = () => {
             </div>
             <div className="col-md-6">
               <div className="content">
-                <h4>KAREO ANALYTICS</h4>
+                <h4>Here's why makes BluelineMD Telehealth stand out:</h4>
                 <p className="mb-3">
-                  With Kareo Telehealth, you can connect with patients anywhere
-                  at anytime. It's simple, secure and streamlined—and fully
-                  reimbursed by private payers.
+                  Effortlessly schedule secure, encrypted telehealth
+                  appointments with BluelineMD. Offer flexible home care and
+                  maximise revenue with insurance reimbursement. Save time with
+                  our streamlined solution.
                 </p>
-                <button className="btn_primary">View Product</button>
+                <button className="btn_primary"> Contact us</button>
               </div>
             </div>
           </div>
@@ -131,10 +161,8 @@ const Home = () => {
       <YourNeeds
         isBtn={true}
         data={needData}
-        heading="EHR platform that adapts to your needs"
-        subHeading={`We have selected a few resources below to help you improve care
-              delivery, billing, insurance reimbursements and patient
-              collections.`}
+        heading="COMPREHENSIVE HEALTHCARE SOLUTIONS TAILORED TO YOU"
+        subHeading={`We've curated resources to enhance your patient care, streamline billing, optimise insurance claims, and improve patient payments.`}
       />
     </>
   );

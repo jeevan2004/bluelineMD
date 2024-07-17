@@ -110,3 +110,15 @@
   margin-top: 20px;
   padding: 10px 20px;
 }
+/* contact_sec */
+
+.contact_sec {
+  background-color: #f8fafd;
+}
+.contact_sec .content {
+  height: 100% !important;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+}

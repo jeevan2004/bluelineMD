@@ -49,7 +49,7 @@ export const routes = [
   },
   {
     notLazy: true,
-    path: "/clinical",
+    path: "/product/:name",
     element: Product,
     role: "private",
     name: "Product",

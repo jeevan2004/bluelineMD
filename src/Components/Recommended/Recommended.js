@@ -9,11 +9,14 @@ const Recommended = () => {
       <section className="default_padding recommended">
         <Container className="">
           <div class="section_heading">
-            <h2>Recommended for you!</h2>
+            <h2>FOR THE RECOMMENDED FOR YOU SECTION</h2>
             <h4>
-              We have selected a few resources below to help you improve care
-              delivery, billing, insurance reimbursements and patient
-              collections.
+              {/* Industry Insights: The Current Landscape of Medical Billing BlueMD
+              recently conducted our second nationwide survey of medical billing
+              company owners, leaders, and team members to better understand
+              overall sentiment about the current state of the industry,
+              perceived key business drivers, significant challenges, as well as
+              the characteristics of a best-in-class billing company. */}
             </h4>
           </div>
           <Row>
@@ -24,16 +27,16 @@ const Recommended = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    Roundtable Discussion: The State of the Medical Billing
-                    Industry
+                    Industry Insights: The Current Landscape of Medical Billing
                   </h4>
                   <p>
-                    Kareo, a Tebra company, recently conducted our second
-                    nationwide survey of medical billing company owners,
-                    leaders, and team members to better understand overall
-                    sentiment about the current state of the industry, perceived
-                    key business drivers, significant challenges, as well as the
-                    characteristics of a best-in-class billing company.
+                    Industry Insights: The Current Landscape of Medical Billing
+                    BlueMD recently conducted our second nationwide survey of
+                    medical billing company owners, leaders, and team members to
+                    better understand overall sentiment about the current state
+                    of the industry, perceived key business drivers, significant
+                    challenges, as well as the characteristics of a
+                    best-in-class billing company.
                   </p>
                   <button className="btn btn-pink">Read More</button>
                   <div className="team-shape">
@@ -75,16 +78,15 @@ const Recommended = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    Roundtable Discussion: The State of the Medical Billing
-                    Industry
+                    Expert Panel: Navigating the Future of Healthcare Technology
                   </h4>
                   <p>
-                    Kareo, a Tebra company, recently conducted our second
-                    nationwide survey of medical billing company owners,
-                    leaders, and team members to better understand overall
-                    sentiment about the current state of the industry, perceived
-                    key business drivers, significant challenges, as well as the
-                    characteristics of a best-in-class billing company.
+                    We hosted our annual roundtable discussion with healthcare
+                    IT specialists, hospital administrators, and software
+                    developers to explore emerging trends in medical technology,
+                    assess the impact of AI on patient care, identify key
+                    challenges in implementation, and define characteristics of
+                    cutting-edge healthcare facilities.
                   </p>
                   <button className="btn btn-pink">Read More</button>
                   <div className="team-shape">
@@ -126,16 +128,15 @@ const Recommended = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    Roundtable Discussion: The State of the Medical Billing
-                    Industry
+                    Industry Analysis: Trends in Medical Billing Practices
                   </h4>
                   <p>
-                    Kareo, a Tebra company, recently conducted our second
-                    nationwide survey of medical billing company owners,
-                    leaders, and team members to better understand overall
-                    sentiment about the current state of the industry, perceived
-                    key business drivers, significant challenges, as well as the
-                    characteristics of a best-in-class billing company.
+                    BlueMD recently completed our second nationwide study of
+                    medical billing professionals, including company owners,
+                    executives, and staff members. Our aim was to gauge industry
+                    sentiment, identify key growth factors, pinpoint major
+                    challenges, and determine the hallmarks of top-performing
+                    billing organisations in today's healthcare landscape.
                   </p>
                   <button className="btn btn-pink">Read More</button>
                   <div className="team-shape">

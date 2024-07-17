@@ -81,21 +81,21 @@ function Header() {
         {
           title: "Billing",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "#",
+          path: "billing",
           icon: <i class="fas fa-file-invoice"></i>,
           subMenu: false,
         },
         {
-          title: "Engage",
+          title: "Telehealth",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "#",
+          path: "telehealth",
           icon: <i class="fas fa-percentage"></i>,
           subMenu: false,
         },
         {
           title: "Managed Billing",
           para: "lorem lorem lorem loremlorem lorem",
-          path: "#",
+          path: "managedBilling",
           icon: <i class="fas fa-file-invoice"></i>,
 
           subMenu: false,

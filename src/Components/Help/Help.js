@@ -12,12 +12,14 @@ const Help = () => {
               <div className="image">
                 <img src={heart} alt="" />
 
-                <h4>Here to help you</h4>
+                <h4>Here to Support Your Success </h4>
                 <p>
-                  Our mission is simple: help you make your practice more
-                  successful. Right from the start, we make it easy to get up
-                  and running with Kareo. And that support is ongoing to make
-                  sure you're always getting the most out of our solutions.
+                  Our core purpose is clear: we're dedicated to enhancing your
+                  practice's performance. From day one, we ensure a seamless
+                  integration of our systems into your workflow. Our commitment
+                  to your success doesn't stop there - we provide continuous
+                  support to help you maximise the potential of our innovative
+                  solutions.
                 </p>
               </div>
             </div>
@@ -27,33 +29,36 @@ const Help = () => {
                 <li>
                   <img src={coaching} alt="" />
                   <div>
-                    <h5>Free coaching</h5>
+                    <h5> Personalized Onboarding</h5>
                     <p>
-                      For the first 60 days, you'll have your own Kareo success
-                      coach - at no extra cost. Get the one-on-one attention and
-                      support you need right from the start.
+                      Personalized Onboarding For the first 30 days, you'll have
+                      access to a dedicated BlueMD integration specialist -
+                      included in your package. Receive tailored guidance to
+                      ensure a smooth transition and maximise your success.
                     </p>
                   </div>
                 </li>
                 <li>
                   <img src={coaching} alt="" />
                   <div>
-                    <h5>Free coaching</h5>
+                    <h5> Expert Support </h5>
                     <p>
-                      For the first 60 days, you'll have your own Kareo success
-                      coach - at no extra cost. Get the one-on-one attention and
-                      support you need right from the start.
+                      Expert Support Our team of experienced BlueMD advisors is
+                      available for the initial 45 days to provide one-on-one
+                      assistance. Get the personalised attention you need to
+                      optimise your billing processes.
                     </p>
                   </div>
                 </li>
                 <li>
                   <img src={coaching} alt="" />
                   <div>
-                    <h5>Free coaching</h5>
+                    <h5>Complimentary Consultation</h5>
                     <p>
-                      For the first 60 days, you'll have your own Kareo success
-                      coach - at no extra cost. Get the one-on-one attention and
-                      support you need right from the start.
+                      Complimentary Consultation Enjoy a free 60-day
+                      consultation period with a BlueMD efficiency expert.
+                      Benefit from professional insights and support to
+                      streamline your operations from day one.
                     </p>
                   </div>
                 </li>
