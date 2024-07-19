@@ -13,8 +13,8 @@ const Footer = () => {
                 <div className="footer_about wow animate__animated animate__fadeInLeft">
                   <img src={footer_logo} alt="" />
                   <p>
-                    Tebra is your complete healthcare operating system for the
-                    connected practice
+                    BluelineMD is your all-in-one healthcare platform for
+                    seamless practice connectivity.
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <i></i>
-                      <p>info@blueLinemd.com</p>
+                      <p>info@bluelinemd.com</p>
                     </li>
                     <li>
                       <i></i>

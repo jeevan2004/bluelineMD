@@ -72,14 +72,14 @@ export const productData = {
         {
           question: "Comprehensive support available",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
       ],
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
       subHeading:
-        "Kareo delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
 
       items: [
         {
@@ -217,30 +217,30 @@ export const productData = {
     faq: {
       heading: "BluelineMd Frequently Ask Questions",
       subHeading:
-        "Configurable, Connected, Compassionate Kareo Clinical is built with three clear goals. It's configurable to your practice, it connects seamlessly with billing and it is easy to use.",
+        "Configurable, Connected, Compassionate BluelineMD Clinical is built with three clear goals. It's configurable to your practice, it connects seamlessly with billing and it is easy to use.",
 
       faqItems: [
         {
           question: "Designed by Healthcare Providers",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
         {
           question: "Start in minutes, not days",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
         {
           question: "All the support you need",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
       ],
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
       subHeading:
-        "Kareo delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
 
       items: [
         {
@@ -378,30 +378,30 @@ export const productData = {
     faq: {
       heading: "BluelineMd Frequently Ask Questions",
       subHeading:
-        "Configurable, Connected, Compassionate Kareo Clinical is built with three clear goals. It's configurable to your practice, it connects seamlessly with billing and it is easy to use.",
+        "Configurable, Connected, Compassionate BluelineMD Clinical is built with three clear goals. It's configurable to your practice, it connects seamlessly with billing and it is easy to use.",
 
       faqItems: [
         {
           question: "Designed by Healthcare Providers",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
         {
           question: "Start in minutes, not days",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
         {
           question: "All the support you need",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
       ],
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
       subHeading:
-        "Kareo delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
 
       items: [
         {
@@ -540,30 +540,30 @@ export const productData = {
     faq: {
       heading: "BluelineMd Frequently Ask Questions",
       subHeading:
-        "Configurable, Connected, Compassionate Kareo Clinical is built with three clear goals. It's configurable to your practice, it connects seamlessly with billing and it is easy to use.",
+        "Configurable, Connected, Compassionate BluelineMD Clinical is built with three clear goals. It's configurable to your practice, it connects seamlessly with billing and it is easy to use.",
 
       faqItems: [
         {
           question: "Designed by Healthcare Providers",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
         {
           question: "Start in minutes, not days",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
         {
           question: "All the support you need",
           annswer:
-            "Kareo Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
+            "BluelineMD Clinical was designed and is managed by our team of healthcare providers. We worked hard to make our technology powerful with a focus on ease of use.",
         },
       ],
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
       subHeading:
-        "Kareo delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
 
       items: [
         {

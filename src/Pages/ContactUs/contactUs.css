@@ -126,9 +126,9 @@
 
 .contact_area {
   position: relative;
-  top: -270px;
+  top: -160px;
+  z-index: 9;
 }
-
 .contact_area .contact-form-box {
   background: #fff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

@@ -47,11 +47,11 @@ const ContactUs = () => {
     <>
       <section className="contact_sec">
         <HomeBanner
-          title={"See how Kareo can work for you"}
+          title={"See how BluelineMD can work for you"}
           // heading={data?.heroBanner.heading}
           // strong={data?.heroBanner.strong}
           content={[
-            "Tell us a little about yourself and we'll connect you with a Kareo expert who can show you the product in depth, and answer any questions you have. See a day in the life of how a provider, office manager, or biller use Kareo to empower their practice.",
+            "Tell us a little about yourself and we'll connect you with a BluelineMD expert who can show you the product in depth, and answer any questions you have. See a day in the life of how a provider, office manager, or biller use BluelineMD to empower their practice.",
           ]}
           // btnText={data?.heroBanner.btnText}
           // btnLink={data?.heroBanner.btnLink}
@@ -387,26 +387,30 @@ const ContactUs = () => {
                           <option disabled="" selected="" value="">
                             - Select -
                           </option>
-                          <option value="Kareo Clinical (EHR)">
-                            Kareo Clinical (EHR)
+                          <option value="BluelineMD Clinical (EHR)">
+                            BluelineMD Clinical (EHR)
                           </option>
-                          <option value="Kareo Billing Software (PM)">
-                            Kareo Billing Software (PM)
+                          <option value="BluelineMD Billing Software (PM)">
+                            BluelineMD Billing Software (PM)
                           </option>
                           <option value="Managed Billing Services">
                             Managed Billing Services
                           </option>
-                          <option value="Kareo Engage">Kareo Engage</option>
+                          <option value="BluelineMD Engage">
+                            BluelineMD Engage
+                          </option>
                           <option value="Telemedicine">Telehealth</option>
-                          <option value="Kareo for Billing Companies">
-                            Kareo for Billing Companies
+                          <option value="BluelineMD for Billing Companies">
+                            BluelineMD for Billing Companies
                           </option>
-                          <option value="Kareo Analytics">
-                            Kareo Analytics
+                          <option value="BluelineMD Analytics">
+                            BluelineMD Analytics
                           </option>
-                          <option value="Kareo Cloud">Kareo Cloud</option>
-                          <option value="Kareo Patient Collect">
-                            Kareo Patient Collect
+                          <option value="BluelineMD Cloud">
+                            BluelineMD Cloud
+                          </option>
+                          <option value="BluelineMD Patient Collect">
+                            BluelineMD Patient Collect
                           </option>
                           <option value="Robotic Process Automation">
                             Robotic Process Automation

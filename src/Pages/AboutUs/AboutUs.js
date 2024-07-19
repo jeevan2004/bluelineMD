@@ -31,11 +31,11 @@ const AboutUs = () => {
   return (
     <>
       <HomeBanner
-        title={"See how Kareo can work for you"}
+        title={"See how BluelineMD can work for you"}
         // heading={data?.heroBanner.heading}
         // strong={data?.heroBanner.strong}
         content={[
-          "Tell us a little about yourself and we'll connect you with a Kareo expert who can show you the product in depth, and answer any questions you have. See a day in the life of how a provider, office manager, or biller use Kareo to empower their practice.",
+          "Tell us a little about yourself and we'll connect you with a BluelineMD expert who can show you the product in depth, and answer any questions you have. See a day in the life of how a provider, office manager, or biller use BluelineMD to empower their practice.",
         ]}
         // btnText={data?.heroBanner.btnText}
         // btnLink={data?.heroBanner.btnLink}

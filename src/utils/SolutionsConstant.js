@@ -194,44 +194,38 @@ export const solutionsData = {
   },
   billingCompanies: {
     heroBanner: {
-      title: "Integrated claims processing for faster reimbursements ",
+      title: "BluelineMD: Trusted Medical Billing Solutions",
       heading: "",
       strong: "",
       content: [
-        "Boost Insurance Reimbursements with BluelineMD Maximise your insurance reimbursements at every stage of the revenue cycle.",
+        "BluelineMD's intuitive, cloud-based platform puts billing companies in control of their business and the practices they serve. Learn why over 1,600 medical billing companies trust BluelineMD.",
       ],
       btnText: "Schedule a Consultation",
       btnLink: "#",
       img: hero,
     },
     latestUpdates: {
-      heading: "Streamlining Revenue Cycle Management with BluelineMD",
+      heading: "Everything You Need From Medical Billing Software",
       content: [
-        "Getting Paid What You Deserve Managing the revenue cycle efficiently is one of the most challenging aspects of running an independent medical practice. Each phase of the revenue cycle presents unique challenges, and a breakdown in any part of the process can result in wasted time and lost revenue. For the financial stability of your practice, it's crucial to have a well-defined revenue cycle workflow. With an optimised process, you'll receive payments you're owed promptly, reduce the burden on your billing staff, keep administrative costs down, and maintain positive relationships with your patients.",
-        "BluelineMD provides access to our comprehensive platform and a suite of integrated billing tools. Our web and mobile applications help your practice effortlessly manage your revenue cycle and navigate the complexities of insurance billing.",
-        `Your Path to Achieving a 95%+ Clean Claims Rate Did you know that 50% of rejected or denied claims are never reworked? That's potential revenue lost forever. Improving your claims process can be the fastest way to boost your practice's profitability.
-        Our guide offers valuable tips, tricks, and resources to help you reach "Clean Claims Nirvana" by attaining a First Pass Acceptance Rate (FPAR) of over 95%.`,
+        "BluelineMD delivers tools to make your workflow with practices more efficient. Freeing you to focus on maximizing reimbursements, while your practices concentrate on delivering quality care.",
       ],
       btnText: "Download Guide",
       btnLink: "#",
       img: belling_img,
     },
     getPaidData: {
-      heading: "Is Your Practice's Revenue Cycle Workflow Optimized?",
+      heading: "Biller Features",
       content: [
-        "1. Planning for Success Conduct an honest assessment of your insurance reimbursement revenue cycle, define your goals, and identify what's needed to achieve them.",
-        "2. Patient Intake Reducing claim rejections and improving insurance reimbursements begins before the patient enters your office. Implement an optimal process for patient intake, eligibility verification, and benefits confirmation.",
-        "3. Claims Processing Analysing and processing insurance claims is crucial for your practice. Leverage technology to accelerate and even automate charge entry, charge validation, claim scrubbing, rejection management, denial management, and payment posting.",
-        "4. Monitor Financial Health Establish and track key performance indicators (KPIs) for your insurance reimbursements. Proper monitoring will help uncover revenue opportunities that will have the greatest impact on your bottom line, allowing you to move forward confidently, knowing your time and resources are fully optimised.",
+        "BluelineMD empowers billers to take control of their day and maximize efficiency. Our robust to-do list keeps you focused by highlighting all your critical tasks, ensuring nothing gets lost in the shuffle. Additionally, BluelineMD streamlines your Accounts Receivable (A/R) management with comprehensive end-to-end claim tracking. This feature, available on both our desktop and web applications, helps you reduce days in A/R and ensures you get paid faster.",
       ],
       btnText: "Download Guide",
       btnLink: "#",
       img: Tele,
     },
     faq: {
-      heading: "BluelineMd Frequently Asked Questions",
+      heading: "Practice Features",
       subHeading:
-        "Tailored, Integrated, Intuitive BluelineMd is developed with three main objectives. It's tailored to fit your practice, integrates smoothly with billing, and is user-friendly.",
+        "BluelineMD empowers your partnered practices with the tools they need for financial clarity and streamlined operations. Our intuitive system provides up-to-date and customizable financial health snapshots accessible from any device. This empowers practices to stay informed and confident throughout the month. Additionally, BluelineMD eliminates the need for paper with a user-friendly system for creating charges, encounters, and visit notes. This ensures accuracy and efficiency, freeing up valuable time for practices to focus on delivering quality care.",
 
       faqItems: [
         {
@@ -378,11 +372,11 @@ export const solutionsData = {
   },
   patientCollections: {
     heroBanner: {
-      title: "Integrated claims processing for faster reimbursements ",
+      title: "Increase Revenue. Streamline Operations.",
       heading: "",
       strong: "",
       content: [
-        "Boost Insurance Reimbursements with BluelineMD Maximise your insurance reimbursements at every stage of the revenue cycle.",
+        "In today's healthcare landscape, maximizing patient collections is critical for the financial health of your practice. BluelineMD's integrated, user-friendly platform empowers you to do just that. Don't settle for the status quo – improve cash flow and optimize your revenue cycle with our comprehensive suite of tools.  ",
       ],
       btnText: "Schedule a Consultation",
       btnLink: "#",

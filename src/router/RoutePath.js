@@ -1,12 +1,15 @@
 import ErrorPage from "../Components/404/ErrorPage";
 import AboutUs from "../Pages/AboutUs/AboutUs";
+
 import Blog from "../Pages/Blog/Blog";
 import Single from "../Pages/Blog/Single";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import Home from "../Pages/Home/Home";
+import PrivacyPolicy from "../Pages/PrivacyPolicy/PrivacyPolicy";
 import Product from "../Pages/Product/Product";
 import Services from "../Pages/Services/Services";
 import Solution from "../Pages/Solution/Solution";
+import Terms from "../Pages/Terms/Terms";
 
 export const routes = [
   {
@@ -77,6 +80,22 @@ export const routes = [
     notLazy: true,
     path: "/about",
     element: AboutUs,
+    role: "private",
+    name: "About Us",
+    subRouting: false,
+  },
+  {
+    notLazy: true,
+    path: "/privacyPolicy",
+    element: PrivacyPolicy,
+    role: "private",
+    name: "About Us",
+    subRouting: false,
+  },
+  {
+    notLazy: true,
+    path: "/terms",
+    element: Terms,
     role: "private",
     name: "About Us",
     subRouting: false,
