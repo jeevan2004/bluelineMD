@@ -3,7 +3,7 @@ import "./contactUs.css";
 import { Col, Row, Tab, Tabs } from "react-bootstrap";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import { Link } from "react-router-dom";
-import heroBanner from "../../assets/image/hero.png";
+import contact from "../../assets/image/contact.png";
 import HomeBanner from "../../Components/homeBanner/HomeBanner";
 
 const ContactUs = () => {
@@ -55,7 +55,7 @@ const ContactUs = () => {
           ]}
           // btnText={data?.heroBanner.btnText}
           // btnLink={data?.heroBanner.btnLink}
-          img={heroBanner}
+          img={contact}
         />
       </section>
       <div className="contact_area overflow-hidden ">
@@ -431,9 +431,11 @@ const ContactUs = () => {
                     </Col>
                   </Row>
 
-                  <button className="btn_primary " type="submit">
-                    Submit
-                  </button>
+                  <div style={{ textAlign: "center" }}>
+                    <button className="btn btn-primary" type="submit">
+                      Submit
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>
