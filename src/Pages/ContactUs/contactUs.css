@@ -114,6 +114,7 @@
 
 .contact_sec {
   background-color: #f8fafd;
+  padding-bottom: 200px;
 }
 .contact_sec .content {
   height: 100% !important;
@@ -121,4 +122,19 @@
   padding: 0;
   flex-direction: column;
   justify-content: center;
+}
+
+.contact_area {
+  position: relative;
+  top: -270px;
+}
+
+.contact_area .contact-form-box {
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+}
+
+.contact_area .contact-form-box button {
+  width: 150px !important;
 }

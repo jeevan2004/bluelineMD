@@ -27,6 +27,11 @@
 .banner-area.inc-shape .thumb {
   position: relative;
   z-index: 1;
+  padding-top: 30px;
+}
+
+.banner-area.inc-shape .thumb img {
+  width: 100%;
 }
 .banner-area.inc-shape .thumb::after {
   position: absolute;
@@ -44,7 +49,7 @@
 }
 .banner-area .thumb {
   position: relative;
-  top: 120px;
+  /* top: 120px; */
 }
 img {
   border: none;
