@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import footer_logo from "../../assets/image/footer_logo.png";
 import "./footer.css";
 
@@ -23,16 +24,16 @@ const Footer = () => {
                   <h4>Company</h4>
                   <ul>
                     <li>
-                      <a href="">About Us</a>
+                      <Link to="about">About Us</Link>
                     </li>
                     <li>
-                      <a href="">Our Values</a>
+                      <Link to="#">Our Values</Link>
                     </li>
                     <li>
-                      <a href="">Terms & Conditions</a>
+                      <Link to="terms">Terms & Conditions</Link>
                     </li>
                     <li>
-                      <a href="">Privacy Policy</a>
+                      <Link to="privacyPolicy">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
@@ -42,10 +43,10 @@ const Footer = () => {
                   <h4>Solutions</h4>
                   <ul>
                     <li>
-                      <a href="">Contact Us</a>
+                      <Link to="contact-us">Contact Us</Link>
                     </li>
                     <li>
-                      <a href="">Why Choose Us</a>
+                      <Link to="#">Why Choose Us</Link>
                     </li>
                   </ul>
                 </div>
