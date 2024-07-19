@@ -1,0 +1,66 @@
+.blog-area .single-item {
+  margin-bottom: 50px;
+}
+.blog-area .item {
+  background: #fff;
+  box-shadow: 0 0 2px #ccc;
+}
+.blog-area .item {
+  background: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.blog-item-box .thumb img {
+  max-height: 240px;
+  object-fit: cover;
+}
+.blog-area .item .thumb img {
+  width: 100%;
+  height: auto;
+}
+.blog-area .item .info {
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.blog-area .item .info .meta {
+  margin-bottom: 15px;
+}
+.blog-area .item .info .meta ul li {
+  display: inline-block;
+  margin-right: 13px;
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.blog-area .item .info ul li i {
+  color: #2d76b8;
+  margin-right: 5px;
+  font-weight: 500;
+}
+.blog-item-box .info h4 {
+  font-size: 15px !important;
+  height: 40px;
+  overflow: hidden;
+}
+
+.blog-item-box .info h4 {
+  font-size: 15px !important;
+  height: 40px;
+}
+.blog-area .item .info h4 {
+  font-weight: 600;
+  line-height: 1.4;
+  font-size: 20px;
+}
+.blog-item-box .info p {
+  height: 130px;
+  overflow: hidden;
+}
+.blog-area .item .info a.btn {
+  margin-top: 5px;
+  font-size: 14px;
+  padding: 10px 35px;
+}
