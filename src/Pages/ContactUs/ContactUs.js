@@ -8,7 +8,8 @@ import HomeBanner from "../../Components/homeBanner/HomeBanner";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
-    fullName: "",
+    firstName: "",
+    lastName: "",
     practiceName: "",
     email: "",
     phone: "",
@@ -67,15 +68,30 @@ const ContactUs = () => {
                   <Row>
                     <Col lg={6}>
                       <div className="mb-3">
-                        <label htmlFor="fullName" className="form-label">
-                          First and Last Name*
+                        <label htmlFor="lastName" className="form-label">
+                          Last Name <span className="red">*</span>
                         </label>
                         <input
                           type="text"
                           className="form-control"
-                          id="fullName"
-                          name="fullName"
-                          value={formData.fullName}
+                          id="lastName"
+                          name="lastName"
+                          value={formData.lastName}
+                          onChange={handleChange}
+                        />
+                      </div>
+                    </Col>
+                    <Col lg={6}>
+                      <div className="mb-3">
+                        <label htmlFor="firstName" className="form-label">
+                          First Name
+                        </label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          id="firstName"
+                          name="firstName"
+                          value={formData.firstName}
                           onChange={handleChange}
                         />
                       </div>
@@ -83,7 +99,7 @@ const ContactUs = () => {
                     <Col lg={6}>
                       <div className="mb-3">
                         <label htmlFor="practiceName" className="form-label">
-                          Practice Name*
+                          Practice Name <span className="red">*</span>
                         </label>
                         <input
                           type="text"
@@ -113,7 +129,7 @@ const ContactUs = () => {
                     <Col lg={6}>
                       <div className="mb-3">
                         <label htmlFor="Phone" className="form-label">
-                          Phone
+                          Phone <span className="red">*</span>
                         </label>
                         <input
                           type="text"
@@ -128,7 +144,7 @@ const ContactUs = () => {
                     <Col md="6">
                       <div className="mb-3">
                         <label htmlFor="specialty" className="form-label">
-                          Specialty
+                          Specialty <span className="red">*</span>
                         </label>
                         <select
                           id="specialty"
@@ -338,7 +354,7 @@ const ContactUs = () => {
                     <Col md="6">
                       <div className="mb-3">
                         <label htmlFor="IAmA" className="form-label">
-                          I am a
+                          I am a <span className="red">*</span>
                         </label>
                         <select
                           id="IAmA"
@@ -375,7 +391,7 @@ const ContactUs = () => {
                     <Col md="6">
                       <div className="mb-3">
                         <label htmlFor="productInterest" className="form-label">
-                          Product Interest*
+                          Product Interest <span className="red">*</span>
                         </label>
                         <select
                           id="productInterest"
@@ -421,7 +437,7 @@ const ContactUs = () => {
                     <Col lg={6}>
                       <div className="mb-3">
                         <label htmlFor="providers" className="form-label">
-                          # of providers*
+                          # of providers <span className="red">*</span>
                         </label>
                         <input
                           type="text"
