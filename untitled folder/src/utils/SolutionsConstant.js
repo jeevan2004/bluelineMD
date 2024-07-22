@@ -74,7 +74,7 @@ export const solutionsData = {
       items: [
         {
           img: clinical_all,
-          title: "NCREASE STAFF EFFICIENCY",
+          title: "INCREASE STAFF EFFICIENCY",
           content:
             "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
@@ -258,7 +258,7 @@ export const solutionsData = {
       items: [
         {
           img: clinical_all,
-          title: "NCREASE STAFF EFFICIENCY",
+          title: "INCREASE STAFF EFFICIENCY",
           content:
             "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
@@ -442,7 +442,7 @@ export const solutionsData = {
       items: [
         {
           img: clinical_all,
-          title: "NCREASE STAFF EFFICIENCY",
+          title: "INCREASE STAFF EFFICIENCY",
           content:
             "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },

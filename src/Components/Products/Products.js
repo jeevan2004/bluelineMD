@@ -59,7 +59,7 @@ const Products = () => {
 
           <YourNeeds isBtn={false} data={yourNeed} />
           <Faq data={faqData} />
-          <Recommended data={recommendedData} />
+          {/* <Recommended data={recommendedData} /> */}
 
           <Help />
           <WhyChoose data={getInWayData} bg="#f8fafd" />

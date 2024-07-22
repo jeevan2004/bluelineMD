@@ -68,6 +68,21 @@ const ContactUs = () => {
                   <Row>
                     <Col lg={6}>
                       <div className="mb-3">
+                        <label htmlFor="firstName" className="form-label">
+                          First Name <span className="red">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          id="firstName"
+                          name="firstName"
+                          value={formData.firstName}
+                          onChange={handleChange}
+                        />
+                      </div>
+                    </Col>
+                    <Col lg={6}>
+                      <div className="mb-3">
                         <label htmlFor="lastName" className="form-label">
                           Last Name <span className="red">*</span>
                         </label>
@@ -81,21 +96,7 @@ const ContactUs = () => {
                         />
                       </div>
                     </Col>
-                    <Col lg={6}>
-                      <div className="mb-3">
-                        <label htmlFor="firstName" className="form-label">
-                          First Name
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="firstName"
-                          name="firstName"
-                          value={formData.firstName}
-                          onChange={handleChange}
-                        />
-                      </div>
-                    </Col>
+
                     <Col lg={6}>
                       <div className="mb-3">
                         <label htmlFor="practiceName" className="form-label">
@@ -114,7 +115,7 @@ const ContactUs = () => {
                     <Col lg={6}>
                       <div className="mb-3">
                         <label htmlFor="Email" className="form-label">
-                          Email
+                          Email <span className="red">*</span>
                         </label>
                         <input
                           type="text"

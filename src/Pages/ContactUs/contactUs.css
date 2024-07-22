@@ -139,3 +139,6 @@
 .contact_area .contact-form-box button {
   width: 150px !important;
 }
+.contact_area .contact-form-box .red {
+  color: red;
+}

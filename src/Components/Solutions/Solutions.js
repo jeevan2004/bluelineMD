@@ -65,12 +65,16 @@ const Solutions = () => {
         img={data?.heroBanner.img}
       />
 
-      <LatestUpdate data={latestUpdatesData} btn={true} className={"bg_dark"} />
+      <LatestUpdate
+        data={latestUpdatesData}
+        btn={false}
+        className={"bg_dark"}
+      />
       <LatestUpdate data={getPaidData} btn={false} className={"rowReverse"} />
       <section className="workflow_steps"></section>
       <YourNeeds isBtn={false} data={yourNeed} />
       <Faq data={faqData} />
-      <Recommended data={recommendedData} />
+      {/* <Recommended data={recommendedData} /> */}
 
       <Help />
       <WhyChoose data={getInWayData} bg="#f8fafd" />

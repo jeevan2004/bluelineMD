@@ -144,7 +144,7 @@ const Home = () => {
       </section>
       {/* <Recommended /> */}
       <Help />
-      <YourNeeds isBtn={true} data={needData} />
+      <YourNeeds isBtn={false} data={needData} />
     </>
   );
 };

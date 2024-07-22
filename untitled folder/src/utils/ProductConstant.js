@@ -84,44 +84,44 @@ export const productData = {
       items: [
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
 
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
@@ -245,44 +245,44 @@ export const productData = {
       items: [
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
 
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
@@ -406,44 +406,44 @@ export const productData = {
       items: [
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
 
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
@@ -568,44 +568,44 @@ export const productData = {
       items: [
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
 
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
         {
           img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          title: "IINCREASE STAFF EFFICIENCY",
           content:
             "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
         },
