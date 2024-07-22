@@ -137,7 +137,7 @@ export const productData = {
           img: Blog1,
           title: "Industry Insights: The Current Landscape of Medical Billing",
           description: `Industry Insights: The Current Landscape of Medical Billing
-                    BlueMD recently conducted our second nationwide survey of
+                     BluelineMD recently conducted our second nationwide survey of
                     medical billing company owners, leaders, and team members to
                     better understand overall sentiment about the current state
                     of the industry, perceived key business drivers, significant
@@ -298,7 +298,7 @@ export const productData = {
           img: Blog1,
           title: "Industry Insights: The Current Landscape of Medical Billing",
           description: `Industry Insights: The Current Landscape of Medical Billing
-                    BlueMD recently conducted our second nationwide survey of
+                     BluelineMD recently conducted our second nationwide survey of
                     medical billing company owners, leaders, and team members to
                     better understand overall sentiment about the current state
                     of the industry, perceived key business drivers, significant
@@ -459,7 +459,7 @@ export const productData = {
           img: Blog1,
           title: "Industry Insights: The Current Landscape of Medical Billing",
           description: `Industry Insights: The Current Landscape of Medical Billing
-                    BlueMD recently conducted our second nationwide survey of
+                     BluelineMD recently conducted our second nationwide survey of
                     medical billing company owners, leaders, and team members to
                     better understand overall sentiment about the current state
                     of the industry, perceived key business drivers, significant
@@ -621,7 +621,7 @@ export const productData = {
           img: Blog1,
           title: "Industry Insights: The Current Landscape of Medical Billing",
           description: `Industry Insights: The Current Landscape of Medical Billing
-                    BlueMD recently conducted our second nationwide survey of
+                     BluelineMD recently conducted our second nationwide survey of
                     medical billing company owners, leaders, and team members to
                     better understand overall sentiment about the current state
                     of the industry, perceived key business drivers, significant

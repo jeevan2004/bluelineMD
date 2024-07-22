@@ -12,7 +12,7 @@ const Recommended = ({ data }) => {
           <div class="section_heading">
             <h2>{data?.heading}</h2>
             <h4>
-              {/* Industry Insights: The Current Landscape of Medical Billing BlueMD
+              {/* Industry Insights: The Current Landscape of Medical Billing  BluelineMD
               recently conducted our second nationwide survey of medical billing
               company owners, leaders, and team members to better understand
               overall sentiment about the current state of the industry,

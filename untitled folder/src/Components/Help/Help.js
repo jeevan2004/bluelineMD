@@ -32,7 +32,7 @@ const Help = () => {
                     <h5> Personalized Onboarding</h5>
                     <p>
                       Personalized Onboarding For the first 30 days, you'll have
-                      access to a dedicated BlueMD integration specialist -
+                      access to a dedicated BluelineMD integration specialist -
                       included in your package. Receive tailored guidance to
                       ensure a smooth transition and maximise your success.
                     </p>
@@ -43,8 +43,8 @@ const Help = () => {
                   <div>
                     <h5> Expert Support </h5>
                     <p>
-                      Expert Support Our team of experienced BlueMD advisors is
-                      available for the initial 45 days to provide one-on-one
+                      Expert Support Our team of experienced BluelineMD advisors
+                      is available for the initial 45 days to provide one-on-one
                       assistance. Get the personalised attention you need to
                       optimise your billing processes.
                     </p>
@@ -56,7 +56,7 @@ const Help = () => {
                     <h5>Complimentary Consultation</h5>
                     <p>
                       Complimentary Consultation Enjoy a free 60-day
-                      consultation period with a BlueMD efficiency expert.
+                      consultation period with a BluelineMD efficiency expert.
                       Benefit from professional insights and support to
                       streamline your operations from day one.
                     </p>

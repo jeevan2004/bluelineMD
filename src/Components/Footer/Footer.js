@@ -67,10 +67,10 @@ const Footer = () => {
                       <i></i>
                       <p>info@bluelinemd.com</p>
                     </li>
-                    <li>
+                    {/* <li>
                       <i></i>
                       <p>+91 7899916434</p>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
