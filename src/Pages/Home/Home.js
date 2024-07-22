@@ -12,7 +12,9 @@ import Analytics from "../../assets/image/analytics.png";
 import "./home.css";
 import Recommended from "../../Components/Recommended/Recommended";
 import YourNeeds from "../../Components/YourNeeds/YourNeeds";
-
+import clinical_icon from "../../assets/image/icon/clinical_icon.png";
+import clinical_start from "../../assets/image/icon/clinical_start.png";
+import clinical_all from "../../assets/image/icon/clinical_all.png";
 import icon_chart from "../../assets/image/icon/icon_chart.png";
 import telehealth from "../../assets/image/icon/telehealth.png";
 import rcmChar from "../../assets/image/icon/rcmChar.png";
@@ -21,50 +23,34 @@ import ehrBilling from "../../assets/image/icon/ehrBilling.png";
 import iconEhrDevices from "../../assets/image/icon/iconEhrDevices.png";
 import Help from "../../Components/Help/Help";
 import hero from "../../assets/image/hero.png";
-const needData = [
-  {
-    title: "Telemedicine Experience ",
-    description: `Telemedicine Experience is our user-friendly virtual consultation platform designed for your specific field. `,
-    img: telehealth,
-    btn_link: "#",
-    btnName: "Read More",
-  },
-  {
-    title: "Electronic Health",
-    description: `Electronic Health Records Benefit from our customizable EHR system with efficiency-boosting features for your specialty. `,
-    img: icon_chart,
-    btn_link: "#",
-    btnName: "Read More",
-  },
-  {
-    title: "Financial Management",
-    description: `Financial Management Maximise your revenue with our advanced billing and reimbursement optimization tools. `,
-    img: rcmChar,
-    btn_link: "#",
-    btnName: "Read More",
-  },
-  {
-    title: "Clinic Operations",
-    description: `Clinic Operations Streamline your practice with our intuitive management software, tailored to your needs. `,
-    img: phrPortal,
-    btn_link: "#",
-    btnName: "Read More",
-  },
-  {
-    title: "Billing Automation",
-    description: `Billing Automation Simplify your financial processes with our state-of-the-art medical billing software. `,
-    img: ehrBilling,
-    btn_link: "#",
-    btnName: "Read More",
-  },
-  {
-    title: "On-the-Go Access",
-    description: `On-the-Go Access - Stay connected with our mobile EHR app, offering full functionality wherever you are. `,
-    img: iconEhrDevices,
-    btn_link: "#",
-    btnName: "Read More",
-  },
-];
+const needData = {
+  heading: "COMPREHENSIVE HEALTHCARE SOLUTIONS TAILORED TO YOU",
+  subHeading:
+    "We've curated resources to enhance your patient care, streamline billing, optimise insurance claims, and improve patient payments.",
+  data: [
+    {
+      title: "Designed by Healthcare Providers",
+      description: `BluelineMD was crafted and is managed by a dedicated team of healthcare providers. We focused on creating powerful technology that prioritizes ease of use.`,
+      img: clinical_icon,
+      btn_link: "#",
+      btnName: "Read More",
+    },
+    {
+      title: "Start in minutes, not days",
+      description: `BluelineMD is cloud-based, eliminating the need for software downloads or hardware installations. After signing up, simply create a login, provide basic information, and your EHR is ready to go.`,
+      img: clinical_start,
+      btn_link: "#",
+      btnName: "Read More",
+    },
+    {
+      title: "All the support you need",
+      description: `BluelineMD is designed to be intuitive, but to ensure your success from the start, we assign you a dedicated Success Coach.`,
+      img: clinical_all,
+      btn_link: "#",
+      btnName: "Read More",
+    },
+  ],
+};
 
 const Home = () => {
   return (
@@ -156,14 +142,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Recommended />
+      {/* <Recommended /> */}
       <Help />
-      <YourNeeds
-        isBtn={true}
-        data={needData}
-        heading="COMPREHENSIVE HEALTHCARE SOLUTIONS TAILORED TO YOU"
-        subHeading={`We've curated resources to enhance your patient care, streamline billing, optimise insurance claims, and improve patient payments.`}
-      />
+      <YourNeeds isBtn={true} data={needData} />
     </>
   );
 };

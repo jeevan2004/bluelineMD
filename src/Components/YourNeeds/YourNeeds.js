@@ -9,7 +9,9 @@ import iconEhrDevices from "../../assets/image/icon/iconEhrDevices.png";
 
 import "./yourNeeds.css";
 const YourNeeds = ({ isBtn, data, heading, subHeading }) => {
-  console.log(data, "vvvvvvvkkkkkkk");
+  console.log(data?.data, "dadadadadad");
+  const dataItems = data?.boxItems || data?.data;
+  console.log(dataItems, "vvvvv");
   return (
     <>
       <section className="your_need default_padding">
@@ -19,8 +21,10 @@ const YourNeeds = ({ isBtn, data, heading, subHeading }) => {
             <h4>{data?.subHeading}</h4>
           </div>
           <Row>
-            {data?.boxItems?.map((item) => {
-              console.log(item, "vivi vivi");
+            {dataItems.map((a) => {
+              console.log(a, "aaa");
+            })}
+            {dataItems?.map((item) => {
               return (
                 <>
                   <Col md={4}>
