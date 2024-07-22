@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import footer_logo from "../../assets/image/footer_logo.png";
 import "./footer.css";
+import CustomPopup from "../common/CustomPopup/CustomPopup";
 
 const Footer = () => {
+  const [popupShow, setPopupShow] = useState(false);
+
   return (
     <>
       <footer className="main_footer default_padding">
@@ -88,6 +91,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <CustomPopup
+        show={popupShow}
+        close={setPopupShow}
+        closeIcon={true}
+        id="branch"
+        title="Add branch"
+        bg={false}
+        width="md"
+      >
+        <div className="branch_modal p-40">
+          <p>hello</p>
+        </div>
+      </CustomPopup>
     </>
   );
 };

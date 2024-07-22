@@ -1,0 +1,34 @@
+.common_popup {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.common_popup .modal-header h4 {
+  /* font-family: SF UI Display; */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: rgba(26, 26, 26, 1);
+  text-transform: capitalize;
+
+  text-align: center;
+  width: 100%;
+}
+.common_popup .modal-header button.btn-close {
+  position: absolute;
+  right: 20px;
+  z-index: 999;
+  top: 26px;
+}
+
+.common_popup .modal-dialog .modal-content {
+  padding: 25px;
+}
+.modal-header.bg {
+  /* background: #00000069; */
+  background: rgba(51, 51, 51, 1);
+
+  border-radius: 0;
+  padding: 10px 16px !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}

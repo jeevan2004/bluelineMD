@@ -1,8 +1,0 @@
-:root {
-  --primary-color: #0d67b7;
-  --secondary-color: #d70d78;
-}
-
-@import url(assets/css/font.css);
-@import url(assets/css/flaticon.css);
-@import url(assets//css/global.css);
