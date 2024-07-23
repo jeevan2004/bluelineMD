@@ -78,52 +78,51 @@ export const productData = {
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
-      subHeading:
-        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+      subHeading: "",
 
       items: [
         {
-          img: benefits_icon,
+          img: clinical_all,
           title: "INCREASE STAFF EFFICIENCY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
 
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ENHANCE PATIENT CARE",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "STREAMLINE APPOINTMENTS",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "SECURE COMMUNICATION",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "IMPROVE BILLING PROCESSES",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "INTEGRATE SEAMLESSLY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ACCESS TELEHEALTH",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
         },
       ],
     },
@@ -239,52 +238,51 @@ export const productData = {
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
-      subHeading:
-        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+      subHeading: "",
 
       items: [
         {
-          img: benefits_icon,
+          img: clinical_all,
           title: "INCREASE STAFF EFFICIENCY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
 
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ENHANCE PATIENT CARE",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "STREAMLINE APPOINTMENTS",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "SECURE COMMUNICATION",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "IMPROVE BILLING PROCESSES",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "INTEGRATE SEAMLESSLY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ACCESS TELEHEALTH",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
         },
       ],
     },
@@ -400,52 +398,51 @@ export const productData = {
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
-      subHeading:
-        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+      subHeading: "",
 
       items: [
         {
-          img: benefits_icon,
+          img: clinical_all,
           title: "INCREASE STAFF EFFICIENCY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
 
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ENHANCE PATIENT CARE",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "STREAMLINE APPOINTMENTS",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "SECURE COMMUNICATION",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "IMPROVE BILLING PROCESSES",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "INTEGRATE SEAMLESSLY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ACCESS TELEHEALTH",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
         },
       ],
     },
@@ -562,52 +559,51 @@ export const productData = {
     },
     getInWay: {
       heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
-      subHeading:
-        "BluelineMD delivers a complete technology platform purpose-built to meet the needs of independent practices. Now, physicians can effortlessly manage all major functions of their practice through one intuitive platform.",
+      subHeading: "",
 
       items: [
         {
-          img: benefits_icon,
+          img: clinical_all,
           title: "INCREASE STAFF EFFICIENCY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
 
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ENHANCE PATIENT CARE",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "STREAMLINE APPOINTMENTS",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "SECURE COMMUNICATION",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "IMPROVE BILLING PROCESSES",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "INTEGRATE SEAMLESSLY",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
         },
         {
-          img: benefits_icon,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: clinical_all,
+          title: "ACCESS TELEHEALTH",
           content:
-            "Video visits are more efficient than in-person appointments. Spend less time on administrative tasks and more time with your patients.",
+            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
         },
       ],
     },
