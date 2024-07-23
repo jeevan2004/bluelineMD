@@ -88,8 +88,8 @@ const AboutSec = () => {
                   </div>
                   <div className="about-company-desc">
                     <p>
-                      If you are accused of committing a crime, you will the
-                      very best criminal defense attorneys.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Et ais, si una littera commota sit, fore tota ut labet
                     </p>
                   </div>
                 </div>

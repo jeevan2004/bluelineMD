@@ -453,7 +453,7 @@ const ContactUs = () => {
                   </Row>
 
                   <div style={{ textAlign: "center" }}>
-                    <button className="btn btn-primary" type="submit">
+                    <button className="btn btn_secondary" type="submit">
                       Submit
                     </button>
                   </div>

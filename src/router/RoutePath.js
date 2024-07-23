@@ -78,7 +78,7 @@ export const routes = [
   },
   {
     notLazy: true,
-    path: "/about",
+    path: "/about-us",
     element: AboutUs,
     role: "private",
     name: "About Us",

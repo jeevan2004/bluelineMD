@@ -242,3 +242,7 @@ input:focus {
 .rowReverse .row {
   flex-direction: row-reverse;
 }
+.staticPage h3 {
+  font-size: 23px;
+  margin-top: 20px;
+}

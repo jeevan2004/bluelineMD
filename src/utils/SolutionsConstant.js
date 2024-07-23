@@ -1,5 +1,7 @@
-import hero from "../assets/image/hero.png";
-import clinical_img from "../assets/image/Clinical.png";
+import insurance_hero from "../assets/image/insurance.png";
+import billingHero from "../assets/image/billing.png";
+import paitent_collection from "../assets/image/paitent_collection.png";
+
 import belling_img from "../assets/image/belling.png";
 import clinical_all from "../assets/image/icon/clinical_all.png";
 import Tele from "../assets/image/telehealth.png";
@@ -18,7 +20,7 @@ export const solutionsData = {
       ],
       btnText: "Schedule a Consultation",
       btnLink: "#",
-      img: hero,
+      img: insurance_hero,
     },
     latestUpdates: {
       heading: "Streamlining Revenue Cycle Management with BluelineMD",
@@ -202,7 +204,7 @@ export const solutionsData = {
       ],
       btnText: "Schedule a Consultation",
       btnLink: "#",
-      img: hero,
+      img: billingHero,
     },
     latestUpdates: {
       heading: "Everything You Need From Medical Billing Software",
@@ -380,7 +382,7 @@ export const solutionsData = {
       ],
       btnText: "Schedule a Consultation",
       btnLink: "#",
-      img: hero,
+      img: paitent_collection,
     },
     latestUpdates: {
       heading: "Streamlining Revenue Cycle Management with BluelineMD",

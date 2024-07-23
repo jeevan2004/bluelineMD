@@ -1,6 +1,6 @@
 import React from "react";
 import AboutSec from "../../Components/aboutSec/AboutSec";
-import heroBanner from "../../assets/image/hero.png";
+import heroBanner from "../../assets/image/about.png";
 import "./aboutUs.css";
 import HomeBanner from "../../Components/homeBanner/HomeBanner";
 import Faq from "../../Components/faq/Faq";

@@ -5,8 +5,6 @@ import "./footer.css";
 import CustomPopup from "../common/CustomPopup/CustomPopup";
 
 const Footer = () => {
-  const [popupShow, setPopupShow] = useState(false);
-
   return (
     <>
       <footer className="main_footer default_padding">
@@ -27,7 +25,7 @@ const Footer = () => {
                   <h4>Company</h4>
                   <ul>
                     <li>
-                      <Link to="about">About Us</Link>
+                      <Link to="about-us">About Us</Link>
                     </li>
                     <li>
                       <Link to="#">Our Values</Link>
@@ -91,20 +89,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <CustomPopup
-        show={popupShow}
-        close={setPopupShow}
-        closeIcon={true}
-        id="branch"
-        title="Add branch"
-        bg={false}
-        width="md"
-      >
-        <div className="branch_modal p-40">
-          <p>hello</p>
-        </div>
-      </CustomPopup>
     </>
   );
 };

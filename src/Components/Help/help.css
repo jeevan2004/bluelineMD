@@ -8,7 +8,11 @@
 .help .image p {
   width: 80%;
 }
-
+.help .image img {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
 .help .content li {
   margin-bottom: 25px;
   display: flex;

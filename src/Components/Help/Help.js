@@ -2,6 +2,8 @@ import React from "react";
 import "./help.css";
 import heart from "../../assets/image/heart.svg";
 import coaching from "../../assets/image/coaching.png";
+import handshak from "../../assets/image/handshak.png";
+
 const Help = () => {
   return (
     <>
@@ -10,7 +12,7 @@ const Help = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="image">
-                <img src={heart} alt="" />
+                <img src={handshak} alt="" />
 
                 <h4>Here to Support Your Success </h4>
                 <p>

@@ -142,3 +142,21 @@
 .contact_area .contact-form-box .red {
   color: red;
 }
+.contact-form-box .form-control,
+.contact-form-box .form-select {
+  border-radius: 6px;
+  border-color: rgb(207, 211, 222);
+  background-color: rgb(247, 248, 250);
+  color: rgb(71, 88, 121);
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out;
+  width: 100%;
+  border: 1px solid #e5e5ea;
+  line-height: 1.42857143;
+  padding: 7px 11px;
+}
+.contact_area .contact-form-box button {
+  width: 150px !important;
+  margin: 0 auto;
+  margin-top: 20px;
+}

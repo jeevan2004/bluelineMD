@@ -62,7 +62,7 @@ const Products = () => {
           {/* <Recommended data={recommendedData} /> */}
 
           <Help />
-          <WhyChoose data={getInWayData} bg="#f8fafd" />
+          {/* <WhyChoose data={getInWayData} bg="#f8fafd" /> */}
         </>
       ) : (
         <>

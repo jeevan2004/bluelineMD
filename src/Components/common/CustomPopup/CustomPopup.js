@@ -8,7 +8,9 @@ const CustomPopup = (props) => {
     <div>
       <>
         <div
-          className={`modal fade common_popup ${props?.show ? "show" : ""}`}
+          className={`modal fade common_popup ${props?.className} ${
+            props?.show ? "show" : ""
+          }`}
           id={props?.id}
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
@@ -20,7 +22,11 @@ const CustomPopup = (props) => {
         >
           <div
             className={`modal-dialog modal-dialog-centered ${
-              props.width === "lg" ? "modal-lg" : "modal-md"
+              props.width === "lg"
+                ? "modal-lg"
+                : props.width === "xl"
+                ? "modal-xl"
+                : "modal-md"
             }`}
           >
             <div className="modal-content px-0">
