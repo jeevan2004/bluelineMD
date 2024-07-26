@@ -16,7 +16,7 @@ const LatestUpdate = ({ data, btn, className }) => {
           <div className="row">
             <div className="col-md-6">
               <div className="image">
-                <img src={data?.img} alt="" />
+                <img className="w-100" src={data?.img} alt="" />
               </div>
             </div>
             <div className="col-md-6">

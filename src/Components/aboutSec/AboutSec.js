@@ -22,8 +22,8 @@ const AboutSec = () => {
                     <img src={aboutAwardIcon} alt="" />
                   </div>
                   <div className="about-award-content">
-                    <h4>Award Wining</h4>
-                    <p>Best Services</p>
+                    <h4>Lorem ipsum </h4>
+                    <p>consectetur</p>
                   </div>
                 </div>
                 <div className="about-conuter-box">
@@ -36,7 +36,7 @@ const AboutSec = () => {
                   >
                     <h4>283</h4>
                     <span>K+</span>
-                    <p>Complete Project</p>
+                    <p>Lorem ipsum dolor sit amet</p>
                   </div>
                 </div>
                 <div className="about-shape">
@@ -47,14 +47,16 @@ const AboutSec = () => {
             <div className="col-lg-6">
               <div className="abour-right">
                 <div className="section-title left inner-style">
-                  <h4>IT Support for Business</h4>
-                  <h1>About is Over 291+ Company</h1>
-                  <h1>Business Solution.</h1>
+                  <h4>Lorem ipsum dolor sit amet</h4>
+                  <h1>consectetur adipiscing elit</h1>
+                  <h1>Lorem ipsum dolor sit amet</h1>
                   <p className="section-desc">
-                    Monotonectally synergize granular markets and front markets.
-                    Collaboratively visualize strategic infomediaries after
-                    multimedia based models. Synergistically task state of the
-                    art infrastructures for
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
+                    ais, si una littera commota sit, fore tota ut labet
+                    disciplina. Scrupulum, inquam, abeunti; Ita graviter et
+                    severe voluptatem secrevit a bono. At hoc in eo M. Quae cum
+                    dixisset, finem ille. Negat enim summo bono afferre
+                    incrementum diem.
                   </p>
                 </div>
                 <div className="row align-items-center">
@@ -94,7 +96,7 @@ const AboutSec = () => {
                   </div>
                 </div>
                 <div className="toptech-button inner-style">
-                  <a href="#">
+                  <a href="#" className="btn_secondary">
                     More About<i className="bi bi-arrow-right-short"></i>
                   </a>
                 </div>

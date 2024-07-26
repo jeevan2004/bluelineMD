@@ -232,7 +232,9 @@ input:focus {
   position: relative;
   top: 3px;
 }
-
+/* img {
+  width: 100%;
+} */
 @media (max-width: 767px) {
   .default_padding {
     padding-top: 50px;
@@ -245,4 +247,8 @@ input:focus {
 .staticPage h3 {
   font-size: 23px;
   margin-top: 20px;
+}
+.why_choose_us .why_choose .why_choose_icon img {
+  width: 100%;
+  min-width: 70px;
 }

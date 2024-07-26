@@ -12,7 +12,7 @@
 }
 
 .inner-style-one .abour-award-box {
-  background: #041424;
+  background: #af005d;
   display: flex;
   align-items: center;
   padding: 25px 35px 22px;
@@ -49,7 +49,7 @@
 }
 
 .inner-style-one .about-conuter-box {
-  background: #0c5adb;
+  background: #0d67b7;
   text-align: center;
   width: 220px;
   height: 220px;
@@ -158,13 +158,6 @@
   margin: 0;
 }
 .inner-style.toptech-button a {
-  display: inline-block;
-  background: #0c5adb;
-  border: 1px solid #0c5adb;
-  color: #fff;
-  padding: 14px 35px;
-  font-size: 16px;
-  font-weight: 500;
   border-radius: 5px;
   margin-top: 38px;
   position: relative;

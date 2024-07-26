@@ -3,6 +3,8 @@ import "./help.css";
 import heart from "../../assets/image/heart.svg";
 import coaching from "../../assets/image/coaching.png";
 import handshak from "../../assets/image/handshak.png";
+import expert_support from "../../assets/image/expert_support.png";
+import cummiuity from "../../assets/image/cummiuity.png";
 
 const Help = () => {
   return (
@@ -14,20 +16,19 @@ const Help = () => {
               <div className="image">
                 <img src={handshak} alt="" />
 
-                <h4>Here to Support Your Success </h4>
+                <h4>Dedicated to your success </h4>
                 <p>
-                  Our core purpose is clear: we're dedicated to enhancing your
-                  practice's performance. From day one, we ensure a seamless
-                  integration of our systems into your workflow. Our commitment
-                  to your success doesn't stop there - we provide continuous
-                  support to help you maximise the potential of our innovative
-                  solutions.
+                  Our mission is straightforward: we're committed to elevating
+                  your practice's performance. From the very start, we guarantee
+                  a smooth integration of our systems into your workflow. Our
+                  dedication to your success is ongoing - offering continuous
+                  support to help you fully leverage our innovative solutions.
                 </p>
               </div>
             </div>
 
             <div className="col-md-6">
-              <ul className="content">
+              <ul className="content mt-md-0 mt-4">
                 <li>
                   <img src={coaching} alt="" />
                   <div>
@@ -41,7 +42,7 @@ const Help = () => {
                   </div>
                 </li>
                 <li>
-                  <img src={coaching} alt="" />
+                  <img src={expert_support} alt="" />
                   <div>
                     <h5> Expert Support </h5>
                     <p>
@@ -53,7 +54,7 @@ const Help = () => {
                   </div>
                 </li>
                 <li>
-                  <img src={coaching} alt="" />
+                  <img src={cummiuity} alt="" />
                   <div>
                     <h5>Complimentary Consultation</h5>
                     <p>

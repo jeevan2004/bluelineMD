@@ -28,13 +28,13 @@ const Footer = () => {
                       <Link to="about-us">About Us</Link>
                     </li>
                     <li>
-                      <Link to="#">Our Values</Link>
+                      <Link to="our-values">Our Values</Link>
                     </li>
                     <li>
                       <Link to="terms">Terms & Conditions</Link>
                     </li>
                     <li>
-                      <Link to="privacyPolicy">Privacy Policy</Link>
+                      <Link to="privacy-policy">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                       <Link to="contact-us">Contact Us</Link>
                     </li>
                     <li>
-                      <Link to="#">Why Choose Us</Link>
+                      <Link to="why-choose-us">Why Choose Us</Link>
                     </li>
                   </ul>
                 </div>

@@ -8,9 +8,17 @@ import Tele from "../assets/image/telehealth.png";
 
 import clinical_icon from "../assets/image/icon/clinical_icon.png";
 import clinical_start from "../assets/image/icon/clinical_start.png";
+import benefits_icon from "../assets/image/benefits_icon.png";
+import expert_support from "../assets/image/expert_support.png";
+import like from "../assets/image/like.png";
+import secure from "../assets/image/secure.png";
+import billing_process from "../assets/image/billing_process.png";
+import smless from "../assets/image/smless.png";
+import increse from "../assets/image/increse.png";
+
 import Blog1 from "../assets/image/Blog1.png";
 export const solutionsData = {
-  insuranceReimbursement: {
+  insurance_reimbursement: {
     heroBanner: {
       title: "Integrated claims processing for faster reimbursements ",
       heading: "",
@@ -70,52 +78,54 @@ export const solutionsData = {
       ],
     },
     getInWay: {
-      heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
+      heading: "A software That Seamlessly Fits",
       subHeading: "",
 
       items: [
         {
-          img: clinical_all,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: increse,
+          title: "The Challenge of Medical Billing in Modern Healthcare",
           content:
-            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
+            "In the complex world of healthcare, medical billing is a critical aspect that cannot be approached with a one-size-fits-all mindset. Every medical practice is unique, with its own set of challenges, specialties, and billing intricacies. Finding the right billing partner who truly understands your practice, specialty, and specific billing needs can be a daunting task. Many healthcare providers struggle to find a solution that aligns perfectly with their requirements, often leading to suboptimal reimbursements, increased claim denials, and unnecessary administrative burdens.",
         },
 
         {
-          img: clinical_all,
+          img: expert_support,
           title: "ENHANCE PATIENT CARE",
           content:
             "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
         },
         {
-          img: clinical_all,
-          title: "STREAMLINE APPOINTMENTS",
+          img: like,
+          title:
+            "The BluelineMD: Your Partner in Personalized Billing Solutions",
           content:
-            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
+            "The BluelineMD recognizes these challenges and offers a revolutionary approach to medical billing solutions. We understand that the key to successful medical billing lies in personalised, tailored services that cater to your practice's unique needs. Our expertise lies in matching you with trusted, independent billing companies that possess a deep understanding of the healthcare industry and are committed to optimising your reimbursements.",
         },
         {
-          img: clinical_all,
-          title: "SECURE COMMUNICATION",
+          img: secure,
+          title: " Industry Expertise and Specialty-Specific Knowledge",
           content:
             "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
         },
+
         {
-          img: clinical_all,
-          title: "IMPROVE BILLING PROCESSES",
+          img: smless,
+          title: "Optimising Financial Performance",
           content:
-            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
+            "At The BluelineMD, we're not just about processing claims; we're about optimising your practice's financial performance. Our carefully selected billing partners work tirelessly to maximise your reimbursements, ensuring you receive full compensation for the valuable services you provide. This tailored approach not only streamlines your billing processes but also allows you to focus more on what matters most – patient care.",
         },
         {
-          img: clinical_all,
-          title: "INTEGRATE SEAMLESSLY",
+          img: billing_process,
+          title: "Transform Your Billing Approach",
           content:
-            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
+            "Don't let suboptimal billing practices hold your healthcare organisation back. The BluelineMD is here to transform your approach to medical billing. Our personalised matching process ensures that you're paired with a billing partner who understands the nuances of your specific medical practice, has proven expertise in your particular specialty, and can navigate the complexities of your unique billing requirements with ease.",
         },
         {
-          img: clinical_all,
-          title: "ACCESS TELEHEALTH",
+          img: benefits_icon,
+          title: "Elevating Your Practice",
           content:
-            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
+            "By choosing The BluelineMD, you're taking a significant step towards elevating your practice's financial health. Our specialised billing solutions help reduce claim denials, accelerate reimbursement cycles, and improve your overall financial stability. We believe that when your billing processes are optimised, you can dedicate more time and resources to delivering exceptional patient care.",
         },
       ],
     },
@@ -194,7 +204,7 @@ export const solutionsData = {
       ],
     },
   },
-  billingCompanies: {
+  billing_companies: {
     heroBanner: {
       title: "BluelineMD: Trusted Medical Billing Solutions",
       heading: "",
@@ -253,44 +263,44 @@ export const solutionsData = {
 
       items: [
         {
-          img: clinical_all,
+          img: increse,
           title: "INCREASE STAFF EFFICIENCY",
           content:
             "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
 
         {
-          img: clinical_all,
+          img: expert_support,
           title: "ENHANCE PATIENT CARE",
           content:
             "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
         },
         {
-          img: clinical_all,
+          img: like,
           title: "STREAMLINE APPOINTMENTS",
           content:
             "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
         },
         {
-          img: clinical_all,
+          img: secure,
           title: "SECURE COMMUNICATION",
           content:
             "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
         },
         {
-          img: clinical_all,
+          img: billing_process,
           title: "IMPROVE BILLING PROCESSES",
           content:
             "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
         },
         {
-          img: clinical_all,
+          img: smless,
           title: "INTEGRATE SEAMLESSLY",
           content:
             "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
         },
         {
-          img: clinical_all,
+          img: benefits_icon,
           title: "ACCESS TELEHEALTH",
           content:
             "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
@@ -372,7 +382,7 @@ export const solutionsData = {
       ],
     },
   },
-  patientCollections: {
+  patient_collections: {
     heroBanner: {
       title: "Increase Revenue. Streamline Operations.",
       heading: "",
@@ -437,44 +447,44 @@ export const solutionsData = {
 
       items: [
         {
-          img: clinical_all,
+          img: increse,
           title: "INCREASE STAFF EFFICIENCY",
           content:
             "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
         },
 
         {
-          img: clinical_all,
+          img: expert_support,
           title: "ENHANCE PATIENT CARE",
           content:
             "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
         },
         {
-          img: clinical_all,
+          img: like,
           title: "STREAMLINE APPOINTMENTS",
           content:
             "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
         },
         {
-          img: clinical_all,
+          img: secure,
           title: "SECURE COMMUNICATION",
           content:
             "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
         },
         {
-          img: clinical_all,
+          img: billing_process,
           title: "IMPROVE BILLING PROCESSES",
           content:
             "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
         },
         {
-          img: clinical_all,
+          img: smless,
           title: "INTEGRATE SEAMLESSLY",
           content:
             "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
         },
         {
-          img: clinical_all,
+          img: benefits_icon,
           title: "ACCESS TELEHEALTH",
           content:
             "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",

@@ -125,22 +125,44 @@ function Header() {
       <header>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light p-0">
-            <a className="navbar-brand" href="/">
-              <img src={Logo} alt="" />
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
+            <div className="logo_sec d-flex justify-content-between">
+              <a className="navbar-brand" href="/">
+                <img src={Logo} alt="" />
+              </a>
+              <div className="call_box d-inline-flex d-lg-none">
+                {console.log(location.pathname, "location.pathname")}
+                <Link
+                  className={`${
+                    location.pathname === "/contact-us"
+                      ? "btn_primary "
+                      : "btn_secondary "
+                  } `}
+                  to="contact-us"
+                >
+                  Get Demo
+                </Link>
+                <button
+                  onClick={() => setPopupShow(true)}
+                  className="btn_secondary ms-4"
+                >
+                  Pricing
+                </button>
+              </div>
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
+            </div>
+
             <div
-              className="collapse navbar-collapse"
+              className="collapse navbar-collapse "
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav mb-2 mb-lg-0">
@@ -232,7 +254,7 @@ function Header() {
               </ul>
             </div>
 
-            <div className="call_box">
+            <div className="call_box d-lg-inline-flex d-none">
               {console.log(location.pathname, "location.pathname")}
               <Link
                 className={`${

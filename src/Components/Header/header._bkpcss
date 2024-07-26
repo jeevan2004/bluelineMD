@@ -6,7 +6,14 @@ header {
 header .navbar-collapse {
   justify-content: center;
 }
-
+div#navbarSupportedContent {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999999999999;
+}
 header .navbar-brand {
   max-width: 100px;
 }
@@ -175,12 +182,6 @@ header .call_box .contact p strong {
 }
 
 @media (max-width: 768px) {
-  header .navbar-toggler {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    padding: 25px 0;
-  }
   .call_box {
     display: none;
   }
@@ -277,7 +278,47 @@ p.form_links a {
   .container {
     max-width: 100%;
   }
+  header .nav-item .dropdown-item {
+    width: 100%;
+  }
+
+  header .nav-item .dropdown-menu {
+    padding: 15px;
+    left: 0;
+    width: 100%;
+    top: 50px;
+  }
+
+  header .navbar_link {
+    padding: 10px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: 600;
+  }
+  header .logo_sec {
+    width: 100%;
+  }
+
+  header .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 25px 0;
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 413px) {
+  header .call_box .btn_primary,
+  header .call_box .btn_secondary {
+    padding: 5px 12px;
+    font-size: 13px;
+    min-width: fit-content;
+    margin: 0 4px !important;
+  }
+
+  header .navbar-brand {
+    max-width: 75px;
+  }
+  .pricing_modal .pricing_sec p {
+    font-size: 12px;
+  }
 }

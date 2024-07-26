@@ -6,14 +6,14 @@ const TopHeader = () => {
       <div class="top-bar-area inc-pad bg-theme text-light">
         <div class="container">
           <div class="row align-center">
-            <div class="col-lg-6 info">
+            <div class="col-sm-6 info">
               <ul>
                 <li>Support</li>
                 <li>Help Center</li>
                 <li>Live Chat</li>
               </ul>
             </div>
-            <div class="col-lg-6 info-2">
+            <div class="col-sm-6 info-2">
               <div class="info">
                 <ul>
                   <li>

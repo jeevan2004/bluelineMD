@@ -5,11 +5,13 @@ import Blog from "../Pages/Blog/Blog";
 import Single from "../Pages/Blog/Single";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import Home from "../Pages/Home/Home";
+import OurValues from "../Pages/OurValues/OurValues";
 import PrivacyPolicy from "../Pages/PrivacyPolicy/PrivacyPolicy";
 import Product from "../Pages/Product/Product";
 import Services from "../Pages/Services/Services";
 import Solution from "../Pages/Solution/Solution";
 import Terms from "../Pages/Terms/Terms";
+import WhyChooseUs from "../Pages/WhyChooseUs/WhyChooseUs";
 
 export const routes = [
   {
@@ -86,7 +88,7 @@ export const routes = [
   },
   {
     notLazy: true,
-    path: "/privacyPolicy",
+    path: "/privacy-policy",
     element: PrivacyPolicy,
     role: "private",
     name: "About Us",
@@ -98,6 +100,22 @@ export const routes = [
     element: Terms,
     role: "private",
     name: "About Us",
+    subRouting: false,
+  },
+  {
+    notLazy: true,
+    path: "/why-choose-us",
+    element: WhyChooseUs,
+    role: "private",
+    name: "About Us",
+    subRouting: false,
+  },
+  {
+    notLazy: true,
+    path: "/our-values",
+    element: OurValues,
+    role: "private",
+    name: "Our Values",
     subRouting: false,
   },
 ];

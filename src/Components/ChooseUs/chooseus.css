@@ -1,0 +1,58 @@
+.choose-us-area.inner-style .section-title {
+  margin-bottom: 28px;
+}
+.choose-us-area.inner-style .section-title h4 {
+  font-size: 18px;
+  color: #0c5adb;
+  font-weight: 600;
+  margin: 0 0 24px;
+}
+.choose-us-area.inner-style .section-title h1 {
+  font-size: 42px;
+  color: #041424;
+  font-weight: 700;
+  line-height: 40px;
+}
+.choose-us-area.inner-style .section-title p {
+  margin: 19px 0 0;
+}
+.choose-us-area.inner-style .single-choose-us-item ul li {
+  font-size: 18px;
+  color: #041424;
+  font-weight: 400;
+  font-family: "Nunito";
+  margin-bottom: 19px;
+  margin-left: 27px;
+  position: relative;
+}
+.inner-style .single-choose-us-item ul li:before {
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 9px;
+  left: -20px;
+  top: 9px;
+  background: #0c5adb;
+  border-radius: 50%;
+}
+.inner-style .choose-us-thumb img {
+  position: relative;
+  left: 113px;
+}
+.single-choose-us-box {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 100%;
+}
+
+.choose-us-content {
+  padding: 15px;
+}
+.choose-us-content ul li {
+  font-size: 14px;
+  list-style: auto;
+}
+
+.choose-us-content ul {
+  padding-left: 10px;
+  margin-top: 7px;
+}

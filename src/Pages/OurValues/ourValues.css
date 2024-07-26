@@ -1,0 +1,39 @@
+.mission_area .mission-box {
+  background: #f3f8fd;
+  padding: 62px 55px 54px 94px;
+  /* margin-left: -24px; */
+}
+/* .mission_area .mission-box.two {
+  margin-left: 0;
+}
+.mission-thumb.two {
+  position: relative;
+  left: -23px;
+} */
+.mission_area .row {
+  background: #f3f8fd;
+}
+.mission_area .mission-content h4 {
+  font-size: 42px;
+  margin: 0 0 46px;
+}
+.mission_area .single-icon-box {
+  margin-bottom: 25px;
+}
+.mission_area .single-icon-thumb i {
+  width: 45px;
+  height: 45px;
+  border-radius: 23px;
+  filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+  background-color: #ffffff;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  line-height: 45px;
+  font-size: 25px;
+  color: #041424;
+  margin-right: 16px;
+}
+.mission_area .sigle-icon-desc {
+  overflow: hidden;
+}

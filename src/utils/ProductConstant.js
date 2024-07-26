@@ -492,7 +492,7 @@ export const productData = {
       ],
     },
   },
-  managedBilling: {
+  managed_billing: {
     heroBanner: {
       title: "Expert Medical Billing Tailored to Your Practice",
       heading: "",
