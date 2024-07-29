@@ -24,21 +24,21 @@ function Header() {
       subMenu: [
         {
           title: "Insurance Reimbursement",
-          para: "lorem lorem lorem loremlorem lorem",
+          para: "Efficient and timely claim management.",
           path: "solutions/insurance_reimbursement",
           icon: <i className="fas fa-truck"></i>,
           subMenu: false,
         },
         {
           title: "Billing Companies",
-          para: "lorem lorem lorem loremlorem lorem",
+          para: "Accurate and seamless billing integration.",
           path: "solutions/billing_companies",
           icon: <i className="fas fa-house-damage"></i>,
           subMenu: false,
         },
         {
           title: "Patient Collections",
-          para: "lorem lorem lorem loremlorem lorem",
+          para: "Enhanced tracking for patient collections.",
           path: "solutions/patient_collections",
           icon: <i className="fas fa-user-injured"></i>,
           subMenu: false,
@@ -51,28 +51,28 @@ function Header() {
       subMenu: [
         {
           title: "Clinical",
-          para: "lorem lorem lorem loremlorem lorem",
+          para: "Comprehensive clinical management tools.",
           path: "product/clinical",
           icon: <i className="fas fa-clinic-medical"></i>,
           subMenu: false,
         },
         {
           title: "Billing",
-          para: "lorem lorem lorem loremlorem lorem",
+          para: "Seamless virtual care solutions.",
           path: "product/billing",
           icon: <i className="fas fa-file-invoice"></i>,
           subMenu: false,
         },
         {
           title: "Telehealth",
-          para: "lorem lorem lorem loremlorem lorem",
+          para: "Efficient billing processes",
           path: "product/telehealth",
           icon: <i className="fas fa-percentage"></i>,
           subMenu: false,
         },
         {
           title: "Managed Billing",
-          para: "lorem lorem lorem loremlorem lorem",
+          para: "Complete billing management services",
           path: "product/managed_billing",
           icon: <i className="fas fa-book"></i>,
 
@@ -273,9 +273,7 @@ function Header() {
                   <img className="w-100 logo_text" src={logo_text} />
                 </div>
                 <h4>Welcome to BluelineMD</h4>
-                <p className="mb-4">
-                  Sign up now and get your <span>50 free leads</span>
-                </p>
+                <p className="mb-4">Get in touch with us</p>
                 <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
                   <div className="mb-3">
                     <input

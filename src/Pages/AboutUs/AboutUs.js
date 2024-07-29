@@ -31,11 +31,11 @@ const AboutUs = () => {
   return (
     <>
       <HomeBanner
-        title={"See how BluelineMD can work for you"}
+        title={"Empowering Behavioral Health"}
         // heading={data?.heroBanner.heading}
         // strong={data?.heroBanner.strong}
         content={[
-          "Tell us a little about yourself and we'll connect you with a BluelineMD expert who can show you the product in depth, and answer any questions you have. See a day in the life of how a provider, office manager, or biller use BluelineMD to empower their practice.",
+          "BluelineMD is a pioneering Electronic Health Record (EHR) solution transforming behavioral health practices. Our mission is to optimize your practice by streamlining operations, simplifying workflows, and providing intuitive tools. By focusing on enhancing your practice's performance, we empower healthcare professionals to deliver exceptional patient care while achieving financial success.",
         ]}
         // btnText={data?.heroBanner.btnText}
         // btnLink={data?.heroBanner.btnLink}

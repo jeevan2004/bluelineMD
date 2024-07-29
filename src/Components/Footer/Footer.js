@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 wow animate__animated animate__fadeInLeft text-center">
-              <p>© Copyright 2024. BlueLineMD</p>
+              <p>© Copyright 2024. BluelineMD</p>
             </div>
           </div>
         </div>

@@ -2,50 +2,53 @@
 import hero from "../assets/image/hero.png";
 import clinical_img from "../assets/image/Clinical.png";
 import belling_img from "../assets/image/belling.png";
-
 import clinical_icon from "../assets/image/icon/clinical_icon.png";
 import clinical_start from "../assets/image/icon/clinical_start.png";
 import clinical_all from "../assets/image/icon/clinical_all.png";
-import benefits_icon from "../assets/image/icon/benefits_icon.png";
 import Blog1 from "../assets/image/Blog1.png";
-
+import benefits_icon from "../assets/image/benefits_icon.png";
+import expert_support from "../assets/image/expert_support.png";
+import like from "../assets/image/like.png";
+import secure from "../assets/image/secure.png";
+import billing_process from "../assets/image/billing_process.png";
+import smless from "../assets/image/smless.png";
+import increse from "../assets/image/increse.png";
 // Define your object with correct structure
 export const productData = {
   clinical: {
     heroBanner: {
-      title: "We focus on what matters most",
+      title: "Created by Medical Professionals, for Medical Professionals ",
       heading: "",
       strong: "",
       content: [
-        "Don't get bogged down by paperwork. BluelineMD's user-friendly EHR simplifies your practice management, frees up your time, and lets you focus on what truly matters - building strong relationships with your patients and delivering exceptional care.",
-        "In the dynamic world of behavioral health, streamlining operations, enhancing patient outcomes, and achieving financial success are paramount to thriving practices. BluelineMD, a cutting-edge EHR solution, empowers behavioral health professionals to seamlessly navigate these goals, transforming their practices into hubs of excellence.",
+        "BluelineMD's electronic health record system was developed and refined by a dedicated team of experienced healthcare practitioners. We've combined powerful functionality with an intuitive interface to streamline your workflow. Our system adapts to various specialties, from primary care to specialized fields, ensuring that it meets the unique needs of your practice. Regular updates based on user feedback keep our platform at the forefront of healthcare technology. ",
       ],
       btnText: "Schedule Your Free Demo",
-      btnLink: "#",
+      btnLink: "../contact-us",
       img: clinical_img,
     },
     yourNeed: {
       heading:
-        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND",
+        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND ",
       subHeading: "",
 
       boxItems: [
         {
-          title: "Designed by Healthcare Providers",
+          title: "Created by Medical Professionals ",
           description: `BluelineMD was crafted and is managed by a dedicated team of healthcare providers. We focused on creating powerful technology that prioritizes ease of use.`,
           img: clinical_icon,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "Start in minutes, not days",
+          title: "Begin Immediately ",
           description: `BluelineMD is cloud-based, eliminating the need for software downloads or hardware installations. After signing up, simply create a login, provide basic information, and your EHR is ready to go.`,
           img: clinical_start,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "All the support you need",
+          title: "Get Comprehensive Assistance ",
           description: `BluelineMD is designed to be intuitive, but to ensure your success from the start, we assign you a dedicated Success Coach.`,
           img: clinical_all,
           btn_link: "#",
@@ -77,52 +80,53 @@ export const productData = {
       ],
     },
     getInWay: {
-      heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
+      heading: "A SOFTWARE THAT SEAMLESSLY FITS",
       subHeading: "",
 
       items: [
         {
-          img: clinical_all,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: increse,
+          title: "THE CHALLENGE OF MODERN MEDICAL BILLING",
           content:
-            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
+            "In today's complex healthcare landscape, medical billing requires a tailored approach. Every practice faces unique challenges, specialties, and billing intricacies. Finding the right billing partner who truly understands your specific needs can be daunting, often leading to suboptimal reimbursements and increased administrative burdens.",
         },
 
         {
-          img: clinical_all,
+          img: expert_support,
+          title: "THE BluelineMD: YOUR PERSONALIZED BILLING SOLUTION",
+          content:
+            "BluelineMD offers a revolutionary approach to medical billing. We match you with trusted, independent billing companies that possess deep industry knowledge and are committed to optimizing your reimbursements. Our expertise lies in providing personalized services that cater to your practice's unique requirements.",
+        },
+        {
+          img: like,
+          title: "INDUSTRY EXPERTISE AND SPECIALTY KNOWLEDGE",
+          content:
+            "Our carefully selected billing partners bring extensive experience in healthcare billing. They understand the nuances of your specific medical practice and can navigate the complexities of your unique billing requirements with ease, ensuring optimal financial performance.",
+        },
+        {
+          img: secure,
+          title: "OPTIMIZING FINANCIAL PERFORMANCE",
+          content:
+            "At BluelineMD, we're focused on maximizing your practice's financial health. Our approach goes beyond processing claims; we work to ensure you receive full compensation for your services. This tailored strategy streamlines your billing processes, allowing you to focus more on patient care.",
+        },
+
+        {
+          img: billing_process,
+          title: "TRANSFORM YOUR BILLING APPROACH",
+          content:
+            "Don't let suboptimal billing practices hold you back. BluelineMD is here to revolutionize your approach to medical billing. Our personalized matching process pairs you with a billing partner who understands your practice's specific needs and can navigate your unique challenges effectively.",
+        },
+        {
+          img: benefits_icon,
+          title: "ELEVATING YOUR PRACTICE",
+          content:
+            "By choosing BluelineMD, you're taking a significant step towards improving your practice's financial stability. Our specialized solutions help reduce claim denials, accelerate reimbursement cycles, and enhance overall financial performance, allowing you to dedicate more resources to exceptional patient care.",
+        },
+        {
+          img: smless,
           title: "ENHANCE PATIENT CARE",
           content:
-            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
-        },
-        {
-          img: clinical_all,
-          title: "STREAMLINE APPOINTMENTS",
-          content:
-            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
-        },
-        {
-          img: clinical_all,
-          title: "SECURE COMMUNICATION",
-          content:
-            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
-        },
-        {
-          img: clinical_all,
-          title: "IMPROVE BILLING PROCESSES",
-          content:
-            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
-        },
-        {
-          img: clinical_all,
-          title: "INTEGRATE SEAMLESSLY",
-          content:
-            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
-        },
-        {
-          img: clinical_all,
-          title: "ACCESS TELEHEALTH",
-          content:
-            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
+            "With BluelineMD, you can access comprehensive patient records with ease, enabling more personalized and effective care. Our HIPAA-compliant messaging system ensures secure communication with patients, maintaining privacy and confidentiality throughout your practice operations.",
         },
       ],
     },
@@ -186,26 +190,26 @@ export const productData = {
     },
     yourNeed: {
       heading:
-        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND",
+        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND ",
       subHeading: "",
 
       boxItems: [
         {
-          title: "Designed by Healthcare Providers",
+          title: "Created by Medical Professionals ",
           description: `BluelineMD was crafted and is managed by a dedicated team of healthcare providers. We focused on creating powerful technology that prioritizes ease of use.`,
           img: clinical_icon,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "Start in minutes, not days",
+          title: "Begin Immediately ",
           description: `BluelineMD is cloud-based, eliminating the need for software downloads or hardware installations. After signing up, simply create a login, provide basic information, and your EHR is ready to go.`,
           img: clinical_start,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "All the support you need",
+          title: "Get Comprehensive Assistance ",
           description: `BluelineMD is designed to be intuitive, but to ensure your success from the start, we assign you a dedicated Success Coach.`,
           img: clinical_all,
           btn_link: "#",
@@ -237,52 +241,53 @@ export const productData = {
       ],
     },
     getInWay: {
-      heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
+      heading: "A SOFTWARE THAT SEAMLESSLY FITS",
       subHeading: "",
 
       items: [
         {
-          img: clinical_all,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: increse,
+          title: "THE CHALLENGE OF MODERN MEDICAL BILLING",
           content:
-            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
+            "In today's complex healthcare landscape, medical billing requires a tailored approach. Every practice faces unique challenges, specialties, and billing intricacies. Finding the right billing partner who truly understands your specific needs can be daunting, often leading to suboptimal reimbursements and increased administrative burdens.",
         },
 
         {
-          img: clinical_all,
+          img: expert_support,
+          title: "THE BluelineMD: YOUR PERSONALIZED BILLING SOLUTION",
+          content:
+            "BluelineMD offers a revolutionary approach to medical billing. We match you with trusted, independent billing companies that possess deep industry knowledge and are committed to optimizing your reimbursements. Our expertise lies in providing personalized services that cater to your practice's unique requirements.",
+        },
+        {
+          img: like,
+          title: "INDUSTRY EXPERTISE AND SPECIALTY KNOWLEDGE",
+          content:
+            "Our carefully selected billing partners bring extensive experience in healthcare billing. They understand the nuances of your specific medical practice and can navigate the complexities of your unique billing requirements with ease, ensuring optimal financial performance.",
+        },
+        {
+          img: secure,
+          title: "OPTIMIZING FINANCIAL PERFORMANCE",
+          content:
+            "At BluelineMD, we're focused on maximizing your practice's financial health. Our approach goes beyond processing claims; we work to ensure you receive full compensation for your services. This tailored strategy streamlines your billing processes, allowing you to focus more on patient care.",
+        },
+
+        {
+          img: billing_process,
+          title: "TRANSFORM YOUR BILLING APPROACH",
+          content:
+            "Don't let suboptimal billing practices hold you back. BluelineMD is here to revolutionize your approach to medical billing. Our personalized matching process pairs you with a billing partner who understands your practice's specific needs and can navigate your unique challenges effectively.",
+        },
+        {
+          img: benefits_icon,
+          title: "ELEVATING YOUR PRACTICE",
+          content:
+            "By choosing BluelineMD, you're taking a significant step towards improving your practice's financial stability. Our specialized solutions help reduce claim denials, accelerate reimbursement cycles, and enhance overall financial performance, allowing you to dedicate more resources to exceptional patient care.",
+        },
+        {
+          img: smless,
           title: "ENHANCE PATIENT CARE",
           content:
-            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
-        },
-        {
-          img: clinical_all,
-          title: "STREAMLINE APPOINTMENTS",
-          content:
-            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
-        },
-        {
-          img: clinical_all,
-          title: "SECURE COMMUNICATION",
-          content:
-            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
-        },
-        {
-          img: clinical_all,
-          title: "IMPROVE BILLING PROCESSES",
-          content:
-            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
-        },
-        {
-          img: clinical_all,
-          title: "INTEGRATE SEAMLESSLY",
-          content:
-            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
-        },
-        {
-          img: clinical_all,
-          title: "ACCESS TELEHEALTH",
-          content:
-            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
+            "With BluelineMD, you can access comprehensive patient records with ease, enabling more personalized and effective care. Our HIPAA-compliant messaging system ensures secure communication with patients, maintaining privacy and confidentiality throughout your practice operations.",
         },
       ],
     },
@@ -334,38 +339,38 @@ export const productData = {
   },
   telehealth: {
     heroBanner: {
-      title: "Modern Patient Care, Anytime, Anywhere",
+      title: "Elevate Patient Care Through Virtual Consultations ",
       heading: "",
       strong: "",
       content: [
-        "BluelineMD Telehealth brings healthcare into the digital age. Our secure and user-friendly platform offers a seamless way to provide cutting-edge care remotely. With just a click, you can deliver convenient, compliant, and high-quality patient care from any location. Experience the future of healthcare delivery with BluelineMD's innovative telehealth solution.",
+        "BluelineMD's telehealth platform transforms the way you deliver care. By offering video consultations, you'll boost staff efficiency and reduce administrative burdens. Our flexible scheduling system allows you to extend your hours without increasing overhead costs. This enhanced accessibility leads to improved patient compliance, better health outcomes, and significantly fewer no-shows. Experience the power of modern healthcare delivery that satisfies both your practice needs and patient expectations. ",
       ],
       btnText: "Schedule Your Free Demo",
-      btnLink: "#",
+      btnLink: "../contact-us",
       img: hero,
     },
     yourNeed: {
       heading:
-        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND",
+        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND ",
       subHeading: "",
 
       boxItems: [
         {
-          title: "Designed by Healthcare Providers",
+          title: "Created by Medical Professionals ",
           description: `BluelineMD was crafted and is managed by a dedicated team of healthcare providers. We focused on creating powerful technology that prioritizes ease of use.`,
           img: clinical_icon,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "Start in minutes, not days",
+          title: "Begin Immediately ",
           description: `BluelineMD is cloud-based, eliminating the need for software downloads or hardware installations. After signing up, simply create a login, provide basic information, and your EHR is ready to go.`,
           img: clinical_start,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "All the support you need",
+          title: "Get Comprehensive Assistance ",
           description: `BluelineMD is designed to be intuitive, but to ensure your success from the start, we assign you a dedicated Success Coach.`,
           img: clinical_all,
           btn_link: "#",
@@ -397,52 +402,53 @@ export const productData = {
       ],
     },
     getInWay: {
-      heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
+      heading: "A SOFTWARE THAT SEAMLESSLY FITS",
       subHeading: "",
 
       items: [
         {
-          img: clinical_all,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: increse,
+          title: "THE CHALLENGE OF MODERN MEDICAL BILLING",
           content:
-            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
+            "In today's complex healthcare landscape, medical billing requires a tailored approach. Every practice faces unique challenges, specialties, and billing intricacies. Finding the right billing partner who truly understands your specific needs can be daunting, often leading to suboptimal reimbursements and increased administrative burdens.",
         },
 
         {
-          img: clinical_all,
+          img: expert_support,
+          title: "THE BluelineMD: YOUR PERSONALIZED BILLING SOLUTION",
+          content:
+            "BluelineMD offers a revolutionary approach to medical billing. We match you with trusted, independent billing companies that possess deep industry knowledge and are committed to optimizing your reimbursements. Our expertise lies in providing personalized services that cater to your practice's unique requirements.",
+        },
+        {
+          img: like,
+          title: "INDUSTRY EXPERTISE AND SPECIALTY KNOWLEDGE",
+          content:
+            "Our carefully selected billing partners bring extensive experience in healthcare billing. They understand the nuances of your specific medical practice and can navigate the complexities of your unique billing requirements with ease, ensuring optimal financial performance.",
+        },
+        {
+          img: secure,
+          title: "OPTIMIZING FINANCIAL PERFORMANCE",
+          content:
+            "At BluelineMD, we're focused on maximizing your practice's financial health. Our approach goes beyond processing claims; we work to ensure you receive full compensation for your services. This tailored strategy streamlines your billing processes, allowing you to focus more on patient care.",
+        },
+
+        {
+          img: billing_process,
+          title: "TRANSFORM YOUR BILLING APPROACH",
+          content:
+            "Don't let suboptimal billing practices hold you back. BluelineMD is here to revolutionize your approach to medical billing. Our personalized matching process pairs you with a billing partner who understands your practice's specific needs and can navigate your unique challenges effectively.",
+        },
+        {
+          img: benefits_icon,
+          title: "ELEVATING YOUR PRACTICE",
+          content:
+            "By choosing BluelineMD, you're taking a significant step towards improving your practice's financial stability. Our specialized solutions help reduce claim denials, accelerate reimbursement cycles, and enhance overall financial performance, allowing you to dedicate more resources to exceptional patient care.",
+        },
+        {
+          img: smless,
           title: "ENHANCE PATIENT CARE",
           content:
-            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
-        },
-        {
-          img: clinical_all,
-          title: "STREAMLINE APPOINTMENTS",
-          content:
-            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
-        },
-        {
-          img: clinical_all,
-          title: "SECURE COMMUNICATION",
-          content:
-            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
-        },
-        {
-          img: clinical_all,
-          title: "IMPROVE BILLING PROCESSES",
-          content:
-            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
-        },
-        {
-          img: clinical_all,
-          title: "INTEGRATE SEAMLESSLY",
-          content:
-            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
-        },
-        {
-          img: clinical_all,
-          title: "ACCESS TELEHEALTH",
-          content:
-            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
+            "With BluelineMD, you can access comprehensive patient records with ease, enabling more personalized and effective care. Our HIPAA-compliant messaging system ensures secure communication with patients, maintaining privacy and confidentiality throughout your practice operations.",
         },
       ],
     },
@@ -507,26 +513,26 @@ export const productData = {
     },
     yourNeed: {
       heading:
-        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND",
+        "ELECTRONIC HEALTH RECORDS (EHR) SOFTWARE BUILT WITH THE PROVIDER IN MIND ",
       subHeading: "",
 
       boxItems: [
         {
-          title: "Designed by Healthcare Providers",
+          title: "Created by Medical Professionals ",
           description: `BluelineMD was crafted and is managed by a dedicated team of healthcare providers. We focused on creating powerful technology that prioritizes ease of use.`,
           img: clinical_icon,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "Start in minutes, not days",
+          title: "Begin Immediately ",
           description: `BluelineMD is cloud-based, eliminating the need for software downloads or hardware installations. After signing up, simply create a login, provide basic information, and your EHR is ready to go.`,
           img: clinical_start,
           btn_link: "#",
           btnName: "Read More",
         },
         {
-          title: "All the support you need",
+          title: "Get Comprehensive Assistance ",
           description: `BluelineMD is designed to be intuitive, but to ensure your success from the start, we assign you a dedicated Success Coach.`,
           img: clinical_all,
           btn_link: "#",
@@ -558,52 +564,53 @@ export const productData = {
       ],
     },
     getInWay: {
-      heading: "FINALLY, SOFTWARE THAT DOESN'T GET IN THE WAY",
+      heading: "A SOFTWARE THAT SEAMLESSLY FITS",
       subHeading: "",
 
       items: [
         {
-          img: clinical_all,
-          title: "INCREASE STAFF EFFICIENCY",
+          img: increse,
+          title: "THE CHALLENGE OF MODERN MEDICAL BILLING",
           content:
-            "Our user-friendly EHR system reduces administrative burdens. Spend more time with your patients and less time on paperwork.",
+            "In today's complex healthcare landscape, medical billing requires a tailored approach. Every practice faces unique challenges, specialties, and billing intricacies. Finding the right billing partner who truly understands your specific needs can be daunting, often leading to suboptimal reimbursements and increased administrative burdens.",
         },
 
         {
-          img: clinical_all,
+          img: expert_support,
+          title: "THE BluelineMD: YOUR PERSONALIZED BILLING SOLUTION",
+          content:
+            "BluelineMD offers a revolutionary approach to medical billing. We match you with trusted, independent billing companies that possess deep industry knowledge and are committed to optimizing your reimbursements. Our expertise lies in providing personalized services that cater to your practice's unique requirements.",
+        },
+        {
+          img: like,
+          title: "INDUSTRY EXPERTISE AND SPECIALTY KNOWLEDGE",
+          content:
+            "Our carefully selected billing partners bring extensive experience in healthcare billing. They understand the nuances of your specific medical practice and can navigate the complexities of your unique billing requirements with ease, ensuring optimal financial performance.",
+        },
+        {
+          img: secure,
+          title: "OPTIMIZING FINANCIAL PERFORMANCE",
+          content:
+            "At BluelineMD, we're focused on maximizing your practice's financial health. Our approach goes beyond processing claims; we work to ensure you receive full compensation for your services. This tailored strategy streamlines your billing processes, allowing you to focus more on patient care.",
+        },
+
+        {
+          img: billing_process,
+          title: "TRANSFORM YOUR BILLING APPROACH",
+          content:
+            "Don't let suboptimal billing practices hold you back. BluelineMD is here to revolutionize your approach to medical billing. Our personalized matching process pairs you with a billing partner who understands your practice's specific needs and can navigate your unique challenges effectively.",
+        },
+        {
+          img: benefits_icon,
+          title: "ELEVATING YOUR PRACTICE",
+          content:
+            "By choosing BluelineMD, you're taking a significant step towards improving your practice's financial stability. Our specialized solutions help reduce claim denials, accelerate reimbursement cycles, and enhance overall financial performance, allowing you to dedicate more resources to exceptional patient care.",
+        },
+        {
+          img: smless,
           title: "ENHANCE PATIENT CARE",
           content:
-            "Access comprehensive patient records with ease, enabling you to provide more personalized and effective care.",
-        },
-        {
-          img: clinical_all,
-          title: "STREAMLINE APPOINTMENTS",
-          content:
-            "Efficiently manage scheduling and reduce no-shows with automated reminders and easy rescheduling options",
-        },
-        {
-          img: clinical_all,
-          title: "SECURE COMMUNICATION",
-          content:
-            "Communicate with patients securely through our HIPAA-compliant messaging system, ensuring privacy and confidentiality",
-        },
-        {
-          img: clinical_all,
-          title: "IMPROVE BILLING PROCESSES",
-          content:
-            "Simplify billing and invoicing with our integrated system, reducing errors and speeding up payment collection.",
-        },
-        {
-          img: clinical_all,
-          title: "INTEGRATE SEAMLESSLY",
-          content:
-            "Our EHR solution integrates effortlessly with other healthcare systems, creating a unified workflow and enhancing care coordination.",
-        },
-        {
-          img: clinical_all,
-          title: "ACCESS TELEHEALTH",
-          content:
-            "Offer video visits to your patients, providing convenient care options and reducing the need for in-person appointments.",
+            "With BluelineMD, you can access comprehensive patient records with ease, enabling more personalized and effective care. Our HIPAA-compliant messaging system ensures secure communication with patients, maintaining privacy and confidentiality throughout your practice operations.",
         },
       ],
     },

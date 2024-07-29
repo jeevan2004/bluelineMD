@@ -8,9 +8,7 @@ const TopHeader = () => {
           <div class="row align-center">
             <div class="col-sm-6 info">
               <ul>
-                <li>Support</li>
-                <li>Help Center</li>
-                <li>Live Chat</li>
+                <li>Talk to us</li>
               </ul>
             </div>
             <div class="col-sm-6 info-2">

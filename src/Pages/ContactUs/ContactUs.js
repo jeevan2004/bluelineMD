@@ -48,11 +48,11 @@ const ContactUs = () => {
     <>
       <section className="contact_sec">
         <HomeBanner
-          title={"See how BluelineMD can work for you"}
+          title={"Discover the Power of BluelineMD for Your Practice"}
           // heading={data?.heroBanner.heading}
           // strong={data?.heroBanner.strong}
           content={[
-            "Tell us a little about yourself and we'll connect you with a BluelineMD expert who can show you the product in depth, and answer any questions you have. See a day in the life of how a provider, office manager, or biller use BluelineMD to empower their practice.",
+            "Share a bit about yourself, and we’ll connect you with a BluelineMD expert. They will provide an in-depth demonstration of our product, answer any questions, and show you how healthcare providers, office managers, and billers utilize BluelineMD to elevate their practice.",
           ]}
           // btnText={data?.heroBanner.btnText}
           // btnLink={data?.heroBanner.btnLink}

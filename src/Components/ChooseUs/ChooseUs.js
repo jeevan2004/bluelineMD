@@ -12,11 +12,8 @@ const ChooseUs = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="section-title left style-two">
-                <h4>Why Choose Us</h4>
-                <h1>
-                  {" "}
-                  When it comes to managing your behavioral health practice,
-                </h1>
+                <h4>Why choose BluelineMD</h4>
+                <h1> We Elevate care, Optimize practice</h1>
                 <p>
                   When it comes to managing your behavioral health practice, you
                   need a partner who understands your unique challenges and
@@ -25,14 +22,14 @@ const ChooseUs = () => {
                   forward-thinking healthcare professionals:
                 </p>
               </div>
-              <div className="single-choose-us-item">
+              {/* <div className="single-choose-us-item">
                 <ul>
                   <li>Achieve your goals and exceed expectations.</li>
                   <li>Building a website, mobile app or software.</li>
                   <li>Our platform is designed to help you.</li>
                   <li>Our platform places emphasis on user experience.</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-6">
               <div className="choose-us-thumb">
