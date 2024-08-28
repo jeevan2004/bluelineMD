@@ -59,9 +59,8 @@ const Footer = () => {
                     <li>
                       <i></i>
                       <p>
-                        Nikhar Aventino , no.138 /2 doddakannelli, bellandure
-                        road behind ecoworld teck park near aet junction
-                        doddakannelli,bangalore, Karnataka, 560035
+                        Plot No.134/2/3, Bellandur, Near Embassy Tech Village,
+                        Bangalore, Karnataka, 560035
                       </p>
                     </li>
                     <li>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./topHeader.css";
 const TopHeader = () => {
   return (
@@ -32,9 +33,9 @@ const TopHeader = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="https://www.linkedin.com/company/104876889/admin/dashboard/">
                       <i class="fab fa-linkedin-in"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

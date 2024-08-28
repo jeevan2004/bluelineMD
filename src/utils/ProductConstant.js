@@ -500,12 +500,11 @@ export const productData = {
   },
   managed_billing: {
     heroBanner: {
-      title: "Expert Medical Billing Tailored to Your Practice",
+      title: "Tailored Medical Billing Solutions for Your Practice ",
       heading: "",
       strong: "",
       content: [
-        "At BluelineMD, we understand that medical billing isn't a one-size-fits-all solution. Every practice has unique needs, and finding the right billing partner can be challenging. That's where we excel.",
-        "BluelineMD connects you with seasoned, independent billing experts who:",
+        "At BluelineMD, we understand that each medical practice is unique. That's why we've developed a network of specialized billing partners to match your specific needs. Our expert team connects you with a trusted, independent billing company that understands your specialty and can maximize your reimbursements effectively. ",
       ],
       btnText: "Schedule Your Free Demo",
       btnLink: "#",

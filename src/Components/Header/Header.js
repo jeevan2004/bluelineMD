@@ -263,11 +263,11 @@ function Header() {
         title=""
         bg={false}
         className="pricing_modal"
-        width="xl"
+        width="md"
       >
         <div className=" p-40">
           <Row className="m-0">
-            <Col lg={6}>
+            <Col lg={12}>
               <div className="pricing_sec">
                 <div className="d-flex justify-content-between align-items-center">
                   <img className="w-100 logo_text" src={logo_text} />
@@ -351,12 +351,177 @@ function Header() {
                         required: "Specialty is required",
                       })}
                     >
-                      <option value="">Select Specialty</option>
-                      <option value="cardiology">Cardiology</option>
-                      <option value="dermatology">Dermatology</option>
-                      <option value="orthopedics">Orthopedics</option>
-                      <option value="pediatrics">Pediatrics</option>
-                      <option value="other">Other</option>
+                      <option value="" disabled="" selected="">
+                        Specialty *
+                      </option>
+                      <option value="Acupuncturist">Acupuncturist</option>
+                      <option value="Addiction Medicine Specialist">
+                        Addiction Medicine Specialist
+                      </option>
+                      <option value="Allergist">Allergist</option>
+                      <option value="Anesthesiologist">Anesthesiologist</option>
+                      <option value="Audiologist">Audiologist</option>
+                      <option value="Bariatrician">Bariatrician</option>
+                      <option value="Billing Company">Billing Company</option>
+                      <option value="Cardiologist">Cardiologist</option>
+                      <option value="Chiropractor">Chiropractor</option>
+                      <option value="Chronic Disease Care">
+                        Chronic Disease Care
+                      </option>
+                      <option value="Colon and Rectal Surgeon">
+                        Colon and Rectal Surgeon
+                      </option>
+                      <option value="Concierge Medicine">
+                        Concierge Medicine
+                      </option>
+                      <option value="Cosmetic Dentist">Cosmetic Dentist</option>
+                      <option value="Counselor">Counselor</option>
+                      <option value="Dental Hygienist">Dental Hygienist</option>
+                      <option value="Denturist">Denturist</option>
+                      <option value="Dermatologist">Dermatologist</option>
+                      <option value="Diagnostic Center (Labs)">
+                        Diagnostic Center (Labs)
+                      </option>
+                      <option value="Durable Medical Equipment">
+                        Durable Medical Equipment
+                      </option>
+                      <option value="Ear, Nose, Throat Practitioner">
+                        Ear, Nose, Throat Practitioner
+                      </option>
+                      <option value="Endocrinology and Metabolism Specialist">
+                        Endocrinology and Metabolism Specialist
+                      </option>
+                      <option value="Endodontist">Endodontist</option>
+                      <option value="Family Medicine Practitioner">
+                        Family Medicine Practitioner
+                      </option>
+                      <option value="Gastroenterologist">
+                        Gastroenterologist
+                      </option>
+                      <option value="General Dentist">General Dentist</option>
+                      <option value="General Practitioner">
+                        General Practitioner
+                      </option>
+                      <option value="General Surgeon">General Surgeon</option>
+                      <option value="Genetics Specialist">
+                        Genetics Specialist
+                      </option>
+                      <option value="Geriatrician">Geriatrician</option>
+                      <option value="Hand Surgeon">Hand Surgeon</option>
+                      <option value="Hematologist">Hematologist</option>
+                      <option value="Holistic Medicine Specialist">
+                        Holistic Medicine Specialist
+                      </option>
+                      <option value="Home Health Practitioner">
+                        Home Health Practitioner
+                      </option>
+                      <option value="Immunologist">Immunologist</option>
+                      <option value="Infectious Disease Specialist">
+                        Infectious Disease Specialist
+                      </option>
+                      <option value="Infertility Specialist">
+                        Infertility Specialist
+                      </option>
+                      <option value="Internist">Internist</option>
+                      <option value="IT Consultant">IT Consultant</option>
+                      <option value="Laser Eye Surgeon">
+                        Laser Eye Surgeon
+                      </option>
+                      <option value="Med Spa Practitioner">
+                        Med Spa Practitioner
+                      </option>
+                      <option value="Medical Clinic">Medical Clinic</option>
+                      <option value="Metabolism Specialist">
+                        Metabolism Specialist
+                      </option>
+                      <option value="Mental Health Therapist">
+                        Mental Health Therapist
+                      </option>
+                      <option value="Mobile Medical Provider">
+                        Mobile Medical Practitioner
+                      </option>
+                      <option value="Nephrologist">Nephrologist</option>
+                      <option value="Neurologist">Neurologist</option>
+                      <option value="Neurosurgeon">Neurosurgeon</option>
+                      <option value="Nurse Practitioner">
+                        Nurse Practitioner
+                      </option>
+                      <option value="Nutritionist">Nutritionist</option>
+                      <option value="Obstetrician and Gynecologist">
+                        Obstetrician and Gynecologist
+                      </option>
+                      <option value="Occupational Medicine Specialist">
+                        Occupational Medicine Specialist
+                      </option>
+                      <option value="Occupational Therapist">
+                        Occupational Therapist
+                      </option>
+                      <option value="Oncologist">Oncologist</option>
+                      <option value="Ophthalmologist">Ophthalmologist</option>
+                      <option value="Optometrist">Optometrist</option>
+                      <option value="Oral Surgeon">Oral Surgeon</option>
+                      <option value="Orthodontist">Orthodontist</option>
+                      <option value="Orthopedic Surgeon">
+                        Orthopedic Surgeon
+                      </option>
+                      <option value="Osteopathic Physician">
+                        Osteopathic Physician
+                      </option>
+                      <option value="Otolaryngologist">Otolaryngologist</option>
+                      <option value="Pain Management Specialist">
+                        Pain Management Specialist
+                      </option>
+                      <option value="Pathologist">Pathologist</option>
+                      <option value="Pediatric Dentist">
+                        Pediatric Dentist
+                      </option>
+                      <option value="Pediatrician">Pediatrician</option>
+                      <option value="Periodontist">Periodontist</option>
+                      <option value="Physical Therapist">
+                        Physical Therapist
+                      </option>
+                      <option value="Plastic Surgeon">Plastic Surgeon</option>
+                      <option value="Podiatrist">Podiatrist</option>
+                      <option value="Preventative Medicine Specialist">
+                        Preventative Medicine Specialist
+                      </option>
+                      <option value="Primary Care Provider">
+                        Primary Care Provider
+                      </option>
+                      <option value="Psychiatric Nurse Practitioner">
+                        Psychiatric Nurse Practitioner
+                      </option>
+                      <option value="Psychiatrist">Psychiatrist</option>
+                      <option value="Psychologist">Psychologist</option>
+                      <option value="Pulmonologist">Pulmonologist</option>
+                      <option value="Radiologist">Radiologist</option>
+                      <option value="Registered Dietician">
+                        Registered Dietician
+                      </option>
+                      <option value="Rehabilitation Specialist">
+                        Rehabilitation Specialist
+                      </option>
+                      <option value="Rheumatologist">Rheumotologist</option>
+                      <option value="Sleep Medicine Specialist">
+                        Sleep Medicine Specialist
+                      </option>
+                      <option value="Social Worker (LCSW)">
+                        Social Worker (LCSW)
+                      </option>
+                      <option value="Speech Therapist">Speech Therapist</option>
+                      <option value="Sports Medicine Specialist">
+                        Sports Medicine Specialist
+                      </option>
+                      <option value="Sports Therapist">Sports Therapist</option>
+                      <option value="Urgent Care Specialist">
+                        Urgent Care Provider
+                      </option>
+                      <option value="Urgent Care Specialist">
+                        Urgent Care Specialist
+                      </option>
+                      <option value="Urologist">Urologist</option>
+                      <option value="Vascular Surgeon">Vascular Surgeon</option>
+                      <option value="Other">Other</option>
                     </select>
                     {errors.speciality && (
                       <p className="error">{errors.speciality.message}</p>
@@ -370,11 +535,24 @@ function Header() {
                         required: "Please select 'I am a'",
                       })}
                     >
-                      <option value="">I am a</option>
-                      <option value="doctor">Doctor</option>
-                      <option value="nurse">Nurse</option>
-                      <option value="pharmacist">Pharmacist</option>
-                      <option value="other">Other</option>
+                      <option disabled="" selected="" value="">
+                        I am a *
+                      </option>
+                      <option value="Physician/Practice">
+                        Physician/Practice
+                      </option>
+                      <option value="Billing Company">Billing Company</option>
+                      <option value="ACO">ACO</option>
+                      <option value="Software/IT Consultant">
+                        Software/IT Consultant
+                      </option>
+                      <option value="Student/Educator">Student/Educator</option>
+                      <option value="Patient">Patient</option>
+                      <option value="RCM Practice Customer">
+                        RCM Practice Customer
+                      </option>
+                      <option value="SaaS Provider">SaaS Provider</option>
+                      <option value="Other">Other</option>
                     </select>
                     {errors.iAmA && (
                       <p className="error">{errors.iAmA.message}</p>
@@ -387,11 +565,35 @@ function Header() {
                         required: "Product Interest is required",
                       })}
                     >
-                      <option value="">Product Interest</option>
-                      <option value="doctor">Doctor</option>
-                      <option value="nurse">Nurse</option>
-                      <option value="pharmacist">Pharmacist</option>
-                      <option value="other">Other</option>
+                      <option disabled="" selected="" value="">
+                        Product Interest *
+                      </option>
+                      <option value="BluelineMD Clinical (EHR)">
+                        BluelineMD Clinical (EHR)
+                      </option>
+                      <option value="BluelineMD Billing Software (PM)">
+                        BluelineMD Billing Software (PM)
+                      </option>
+                      <option value="Managed Billing Services">
+                        Managed Billing Services
+                      </option>
+                      <option value="BluelineMD Engage">
+                        BluelineMD Engage
+                      </option>
+                      <option value="Telemedicine">Telehealth</option>
+                      <option value="BluelineMD for Billing Companies">
+                        BluelineMD for Billing Companies
+                      </option>
+                      <option value="BluelineMD Analytics">
+                        BluelineMD Analytics
+                      </option>
+                      <option value="BluelineMD Cloud">BluelineMD Cloud</option>
+                      <option value="BluelineMD Patient Collect">
+                        BluelineMD Patient Collect
+                      </option>
+                      <option value="Robotic Process Automation">
+                        Robotic Process Automation
+                      </option>
                     </select>
                     {errors.productInterest && (
                       <p className="error">{errors.productInterest.message}</p>
@@ -456,13 +658,6 @@ function Header() {
                   </p>
                 </form>
               </div>
-            </Col>
-            <Col
-              lg={6}
-              className="bg_popup"
-              // style={{ backgroundImage: `url(${regImage})` }}
-            >
-              <img src={regImage} alt="Registration" />
             </Col>
           </Row>
         </div>
