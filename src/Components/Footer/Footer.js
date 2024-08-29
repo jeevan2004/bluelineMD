@@ -3,10 +3,17 @@ import { Link } from "react-router-dom";
 import footer_logo from "../../assets/image/footer_logo.png";
 import "./footer.css";
 import CustomPopup from "../common/CustomPopup/CustomPopup";
+import bgimg from '../../assets/image/bglayers.png'
+import gimage from '../../assets/image/gimage.png'
 
 const Footer = () => {
+  console.log(bgimg , "bgimg");
+   const [popupShow, setPopupShow] = useState(false);
   return (
     <>
+    <span   onClick={() => setPopupShow(true)}>
+                     REQUEST A CALLBACK
+                    </span>{" "}
       <footer className="main_footer default_padding">
         <div className="container">
           <div className="default-padding">
@@ -60,7 +67,7 @@ const Footer = () => {
                       <i></i>
                       <p>
                         Plot No.134/2/3, Bellandur, Near Embassy Tech Village,
-                        Bangalore, Karnataka, 560035
+                        Bangalore, Karnataka, 560035  
                       </p>
                     </li>
                     <li>
@@ -88,6 +95,62 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+ <CustomPopup
+        show={popupShow}
+        close={setPopupShow}
+        closeIcon={true}
+        id="callBack"
+        title=""
+        bg={false}
+        className="callBack"
+        width="xl"
+      >
+
+<div className="popup_content" 
+ 
+ style={{backgroundImage: `url(${bgimg})`,    borderRadius: "20px" }}
+ > 
+<div className="popup_header">
+<div className="row align-items-center">
+  <div className="col-sm-8">
+    <div className="header_content">
+      <h4>Can't find what you're looking for?</h4>
+      <p>Let us know what you need - we're happy to help!</p>
+      <button className="" onClick={()=>setPopupShow(false)}>REQUEST A CALLBACK</button>
+    </div>
+   
+   
+
+  </div>
+  <div className="col-sm-4 right_img">
+    <img src={gimage} />
+  </div>
+</div>
+
+</div>
+
+</div>
+ <div className="popup_inner">
+      <h3>You might be interested in:</h3>
+      <ul>
+        <li>
+           <h5>BIGIN</h5>  
+           <p>Pipeline-centric small business CRM</p>       
+        </li>
+         <li>
+           <h5>BIGIN</h5>  
+           <p>Pipeline-centric small business CRM</p>       
+        </li>
+      </ul>
+    </div>
+
+
+
+        
+      </CustomPopup>
+
+                    
     </>
   );
 };
