@@ -4,6 +4,7 @@ const FeaturesSec = ({ heading, content, tiles }) => {
   return (
     <>
       <div className="features-area default_padding">
+        <div className="container">
         <div className="section_heading">
           <h2>{heading}</h2>
           <h4>{content}</h4>
@@ -27,6 +28,7 @@ const FeaturesSec = ({ heading, content, tiles }) => {
             })}
           </div>
         </div>
+      </div>
       </div>
     </>
   );

@@ -160,3 +160,11 @@
   margin: 0 auto;
   margin-top: 20px;
 }
+
+
+@media (max-width:767px)  {
+  .contact_area .contact-form-box {
+    box-shadow: unset;
+   
+}
+}

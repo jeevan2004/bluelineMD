@@ -189,15 +189,13 @@ header .call_box .contact p strong {
     margin-top: 20px;
   }
 
-  header .navbar_link {
+  /* header .navbar_link {
     padding: 10px 0px;
     border-bottom: 1px solid #e0e0e0;
     font-weight: 600;
-  }
+  } */
 
-  .navbar-nav li:last-child a:last-child {
-    border: none;
-  }
+  
 }
 
 /* pricing_sec */
@@ -277,7 +275,37 @@ p.form_links a {
   .container {
     max-width: 100%;
   }
+   header .nav-item .sub_first {
+   
+    left: 0;
+    width: 100%;
+    position: unset;     
+     padding: 10px;
+}
+    header .navbar_link {
+        padding: 10px 0px;
+        border-bottom: 1px solid #e0e0e0;
+        font-weight: 600;
+    }
+    .navbar-nav li:last-child a:last-child {
+    border: none;
+  }
 }
 
 @media (max-width: 767px) {
+
+ header .nav-item .sub_first {
+    display: block;
+ }
+.inner-style .choose-us-thumb img {
+   
+    left: 0 !important;
+}
+header .nav-item .dropdown-item{
+  width: 100%;
+}
+header .dropdown .navbar_link p {
+   
+    white-space: break-spaces;
+}
 }

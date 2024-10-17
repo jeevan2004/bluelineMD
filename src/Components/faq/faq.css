@@ -54,4 +54,8 @@
   .faq-area .faq-content .accordion-header button {
     padding: 0;
   }
+  .faq-heading h3 {
+ 
+    font-size: 30px;
+}
 }

@@ -13,10 +13,10 @@ const ContactUs = () => {
     practiceName: "",
     email: "",
     phone: "",
-    speciality: "",
-    iAmA: "",
+    specialty: "",
+    role: "",
     productInterest: "",
-    providers: "",
+    numberOfProviders: "",
   });
 
   const handleChange = (e) => {
@@ -29,9 +29,10 @@ const ContactUs = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(formData, "eee");
 
     const response = await fetch(
-      "https://blue-line-md.onrender.com/provider/create",
+      "https://bluelinemd.onrender.com/api/contact",
       {
         method: "POST",
         headers: {
@@ -42,7 +43,7 @@ const ContactUs = () => {
     );
 
     const data = await response.json();
-    console.log(data, "data");
+    console.log(data, "data  ssss");
   };
   return (
     <>
@@ -150,8 +151,8 @@ const ContactUs = () => {
                         <select
                           id="specialty"
                           className="form-select"
-                          name="speciality"
-                          value={formData.speciality}
+                          name="specialty"
+                          value={formData.specialty}
                           onChange={handleChange}
                         >
                           <option value="" disabled="" selected="">
@@ -354,14 +355,14 @@ const ContactUs = () => {
                     </Col>
                     <Col md="6">
                       <div className="mb-3">
-                        <label htmlFor="IAmA" className="form-label">
+                        <label htmlFor="role" className="form-label">
                           I am a <span className="red">*</span>
                         </label>
                         <select
-                          id="IAmA"
+                          id="role"
                           className="form-select"
-                          name="iAmA"
-                          value={formData.iAmA}
+                          name="role"
+                          value={formData.role}
                           onChange={handleChange}
                         >
                           <option disabled="" selected="" value="">
@@ -444,8 +445,8 @@ const ContactUs = () => {
                           type="text"
                           className="form-control"
                           id="providers"
-                          name="providers"
-                          value={formData.providers}
+                          name="numberOfProviders"
+                          value={formData.numberOfProviders}
                           onChange={handleChange}
                         />
                       </div>

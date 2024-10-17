@@ -1,6 +1,9 @@
 import React from "react";
 import "./chooseus.css";
-import img1 from "../../assets/image/blog_1.png";
+import img1 from "../../assets/image/why1.png";
+import img2 from "../../assets/image/why2.png";
+import img3 from "../../assets/image/why3.png";
+import img4 from "../../assets/image/why4.png";
 
 import choose_img from "../../assets/image/choose-us-thumb.png";
 
@@ -65,7 +68,7 @@ const ChooseUs = () => {
             <div className="col-lg-3 col-md-6 mb-3">
               <div className="single-choose-us-box">
                 <div className="choose-us-icon">
-                  <img src={img1} alt="" />
+                  <img src={img2} alt="" />
                 </div>
                 <div className="choose-us-content">
                   <h4>Comprehensive, All-in-One Solution</h4>
@@ -84,7 +87,7 @@ const ChooseUs = () => {
             <div className="col-lg-3 col-md-6 mb-3">
               <div className="single-choose-us-box">
                 <div className="choose-us-icon">
-                  <img src={img1} alt="" />
+                  <img src={img3} alt="" />
                 </div>
                 <div className="choose-us-content">
                   <h4>Optimized Financial Performance</h4>
@@ -110,7 +113,7 @@ const ChooseUs = () => {
             <div className="col-lg-3 col-md-6 mb-3">
               <div className="single-choose-us-box">
                 <div className="choose-us-icon">
-                  <img src={img1} alt="" />
+                  <img src={img4} alt="" />
                 </div>
                 <div className="choose-us-content">
                   <h4> User-Friendly Interface</h4>
@@ -126,82 +129,7 @@ const ChooseUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mb-3">
-              <div className="single-choose-us-box">
-                <div className="choose-us-icon">
-                  <img src={img1} alt="" />
-                </div>
-                <div className="choose-us-content">
-                  <h4> User-Friendly Interface</h4>
-                  <p>Our platform is designed with simplicity in mind:</p>
-                  <ul>
-                    <li> Intuitive navigation reduces the learning curve</li>
-                    <li>
-                      {" "}
-                      Efficient workflows free up more time for patient care
-                    </li>
-                    <li>Mobile access keeps you connected on the go</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-3">
-              <div className="single-choose-us-box">
-                <div className="choose-us-icon">
-                  <img src={img1} alt="" />
-                </div>
-                <div className="choose-us-content">
-                  <h4> User-Friendly Interface</h4>
-                  <p>Our platform is designed with simplicity in mind:</p>
-                  <ul>
-                    <li> Intuitive navigation reduces the learning curve</li>
-                    <li>
-                      {" "}
-                      Efficient workflows free up more time for patient care
-                    </li>
-                    <li>Mobile access keeps you connected on the go</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-3">
-              <div className="single-choose-us-box">
-                <div className="choose-us-icon">
-                  <img src={img1} alt="" />
-                </div>
-                <div className="choose-us-content">
-                  <h4> User-Friendly Interface</h4>
-                  <p>Our platform is designed with simplicity in mind:</p>
-                  <ul>
-                    <li> Intuitive navigation reduces the learning curve</li>
-                    <li>
-                      {" "}
-                      Efficient workflows free up more time for patient care
-                    </li>
-                    <li>Mobile access keeps you connected on the go</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-3">
-              <div className="single-choose-us-box">
-                <div className="choose-us-icon">
-                  <img src={img1} alt="" />
-                </div>
-                <div className="choose-us-content">
-                  <h4> User-Friendly Interface</h4>
-                  <p>Our platform is designed with simplicity in mind:</p>
-                  <ul>
-                    <li> Intuitive navigation reduces the learning curve</li>
-                    <li>
-                      {" "}
-                      Efficient workflows free up more time for patient care
-                    </li>
-                    <li>Mobile access keeps you connected on the go</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

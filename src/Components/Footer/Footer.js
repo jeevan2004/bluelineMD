@@ -10,14 +10,14 @@ const Footer = () => {
   console.log(bgimg , "bgimg");
    const [popupShow, setPopupShow] = useState(false);
   return (
-    <>
-    <span   onClick={() => setPopupShow(true)}>
+    <>  
+    <span  className="d-none"  onClick={() => setPopupShow(true)}>
                      REQUEST A CALLBACK
                     </span>{" "}
       <footer className="main_footer default_padding">
         <div className="container">
           <div className="default-padding">
-            <div className="row gy-5">
+            <div className="row gy-3 gy-md-5">
               <div className="col-md-6 col-lg-4">
                 <div className="footer_about wow animate__animated animate__fadeInLeft">
                   <img src={footer_logo} alt="" />
