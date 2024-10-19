@@ -4,7 +4,8 @@ import "./assets/fontawesome/css/fontawesome.min.css";
 import "./assets/fontawesome/css/all.min.css";
 import WOW from "wowjs";
 import "animate.css/animate.min.css";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import Routes from "./router/Routes";
 import Cursor from "./Components/customCursor/Cursor";
@@ -23,6 +24,7 @@ function App() {
     <>
       <Cursor />
       <Routes />
+      <ToastContainer />
     </>
   );
 }

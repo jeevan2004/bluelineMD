@@ -5,7 +5,7 @@ import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import { Link } from "react-router-dom";
 import contact from "../../assets/image/contact.png";
 import HomeBanner from "../../Components/homeBanner/HomeBanner";
-
+import { ToastContainer, toast } from "react-toastify";
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -43,7 +43,21 @@ const ContactUs = () => {
     );
 
     const data = await response.json();
-    console.log(data, "data  ssss");
+    if (data) {
+      const notify = () => toast.success("Sent Successfully");
+      notify();
+      setFormData({
+        firstName: "",
+        lastName: "",
+        practiceName: "",
+        email: "",
+        phone: "",
+        specialty: "",
+        role: "",
+        productInterest: "",
+        numberOfProviders: "",
+      });
+    }
   };
   return (
     <>
