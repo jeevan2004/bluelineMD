@@ -107,27 +107,24 @@ function Header() {
   } = useForm();
 
   const onSubmit = async (data) => {
-    console.log(data, "data");
-    const response = await fetch(
-      "https://bluelinemd.onrender.com/api/contact",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      }
-    );
-
-    const responseData = await response.json();
-
-    if (responseData) {
-      const notify = () => toast.success("Sent Successfully");
-      notify();
-      setPopupShow(false);
-      reset();
-    }
-    console.log(responseData, "data aaa");
+    // console.log(data, "data");
+    // const response = await fetch(
+    //   "https://bluelinemd.onrender.com/api/contact",
+    //   {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(data),
+    //   }
+    // );
+    // const responseData = await response.json();
+    // if (responseData) {
+    //   const notify = () => toast.success("Sent Successfully");
+    //   notify();
+    //   setPopupShow(false);
+    //   reset();
+    // }
   };
 
   return (
@@ -284,7 +281,8 @@ function Header() {
                 </div>
                 <h4>Welcome to BluelineMD</h4>
                 <p className="mb-4">Get in touch with us</p>
-                <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
+                {/* <form onSubmit={handleSubmit(onSubmit)} className="mt-4"> */}
+                <form className="mt-4">
                   <div className="mb-3">
                     <input
                       type="text"

@@ -28,36 +28,34 @@ const ContactUs = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    console.log(formData, "eee");
-
-    const response = await fetch(
-      "https://bluelinemd.onrender.com/api/contact",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      }
-    );
-
-    const data = await response.json();
-    if (data) {
-      const notify = () => toast.success("Sent Successfully");
-      notify();
-      setFormData({
-        firstName: "",
-        lastName: "",
-        practiceName: "",
-        email: "",
-        phone: "",
-        specialty: "",
-        role: "",
-        productInterest: "",
-        numberOfProviders: "",
-      });
-    }
+    // e.preventDefault();
+    // console.log(formData, "eee");
+    // const response = await fetch(
+    //   "https://bluelinemd.onrender.com/api/contact",
+    //   {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(formData),
+    //   }
+    // );
+    // const data = await response.json();
+    // if (data) {
+    //   const notify = () => toast.success("Sent Successfully");
+    //   notify();
+    //   setFormData({
+    //     firstName: "",
+    //     lastName: "",
+    //     practiceName: "",
+    //     email: "",
+    //     phone: "",
+    //     specialty: "",
+    //     role: "",
+    //     productInterest: "",
+    //     numberOfProviders: "",
+    //   });
+    // }
   };
   return (
     <>
@@ -79,7 +77,8 @@ const ContactUs = () => {
           <div className="row">
             <div className="col-lg-12 contact-form-box wow animate__animated animate__fadeInLeft">
               <div className="content">
-                <form className="mt-4" onSubmit={handleSubmit}>
+                {/* <form className="mt-4" onSubmit={handleSubmit}> */}
+                <form className="mt-4">
                   <Row>
                     <Col lg={6}>
                       <div className="mb-3">
