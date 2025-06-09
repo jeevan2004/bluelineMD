@@ -16,7 +16,7 @@ const TopHeader = () => {
               <div class="info">
                 <ul>
                   <li>
-                    <i class="fas fa-phone"></i> + 1234567890
+                    <i class="fas fa-phone"></i> +91 78999 16434
                   </li>
                 </ul>
               </div>
@@ -33,7 +33,7 @@ const TopHeader = () => {
                     </a>
                   </li>
                   <li>
-                    <Link to="https://www.linkedin.com/company/104876889/admin/dashboard/">
+                    <Link to="https://www.linkedin.com/in/bluelinemd-emr-76b159367/">
                       <i class="fab fa-linkedin-in"></i>
                     </Link>
                   </li>

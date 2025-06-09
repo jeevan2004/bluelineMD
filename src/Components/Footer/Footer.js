@@ -119,7 +119,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 wow animate__animated animate__fadeInLeft text-center">
-              <p>© Copyright 2024. BluelineMD</p>
+              <p>© Copyright 2025. BluelineMD | Powered by OneEHR Pvt Ltd.</p>
             </div>
           </div>
         </div>
